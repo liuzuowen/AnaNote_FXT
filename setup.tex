@@ -1,0 +1,46 @@
+% !TEX TS-program = pdflatex
+\documentclass[preprint,showpacs,aps,prc,superscriptaddress]{revtex4-1}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{txfonts}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{lineno}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{epstopdf}
+\usepackage{natbib}
+\usepackage{subfigure}
+%\usepackage{tocloft}
+%\setlength{\cftpartnumwidth}{3em}
+%\def\l@section{\@dottedtocline{1}{2em}{2em}}
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thesubsection{\arabic{section}.\arabic{subsection}}
+\renewcommand\thesubsubsection{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
+%arabic 阿拉伯数字 
+%roman 小写的罗马数字 
+%Roman 大写的罗马数字 
+%alph 小写字母 
+%Alph 大写字母
+\hypersetup
+{
+    CJKbookmarks=true,
+    bookmarksnumbered=true,
+    bookmarksopen=true,
+    breaklinks=true,
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    plainpages=false,
+    pdfstartview=FitH
+}
+\newcommand{\snn}{\sqrt{s_\text{NN}}}
+\newcommand{\pt}{p_T}
+\newcommand{\gc}{GeV/$c$\ }
+\newcommand{\bv}[1]{\textbf{\emph{{}#1}}}
+\newcommand{\ffps}[1]{E_{{}#1}\frac{d^3\bv{N}_{{}#1}}{d\bv{p}^3_{{}#1}}}
+\newcommand{\sfps}[1]{\frac{d^6\bv{N}_{{}#1}}{d\bv{r}^3_{{}#1}d\bv{p}^3_{{}#1}}}
+\newcommand{\tfps}[1]{\frac{d^3\bv{N}_{{}#1}}{d\bv{p}^3_{{}#1}}}
+\newcommand{\npart}{\langle N_{\textrm{part}}\rangle}

@@ -1,0 +1,421 @@
+\section{Basic Information}
+The bad run list, event selection, centrality definition are identical to the ones used for $\phi$-meson analysis. We refer to the $\phi$-meson analysis section for details.
+
+The $\bar{\Xi}^{+}$ statistic is very small in this dataset, we only reporet $\Xi^{-}$ result.
+
+The analysis is similar as $\phi$-meson analysis, here is the summary of analysis procedure.
+
+We firstly get $\Xi^{-}$ counts in centrality/rapidity/$p_{\rm T}$ bins from data, the number of $\Xi^{-}$ is extracted using a simple bin counting method. To get real invariant mass spectrum of $\Xi^{-}$ within STAR acceptance, the raw spectrum should correct for the efficiency. The efficiency is calculated in $p_{\rm T}$-rapidity bins from embedding. We know efficiency depends on the $p_{\rm T}$ spectrum and rapidity distribution of the input simulation, our embedding input is flat $p_{\rm T}$ and $\eta$ distribution, and the $p_{\rm T}$-rapidity distribution of $\Xi^{-}$ at 3 GeV is not well known. So currently what we did is to using efficiency from flat $p_{\rm T}$ and $\eta$ embedding sample to get realistic $dN/dp_{\rm T}$ and $dN/dy$ distributions to weight the embedding simulation. Then using weighted embedding sample to get efficiency, correct for efficiency for $p_{\rm T}$ spectra in rapidity slices. Since our measurements can only achieve some certain momentum and rapidity range, we need to rely on functions to extrapolate to unmeasured range, for both $dN/dp_{\rm T}$ down to 0 $p_{\rm T}$ and $dNdy$ go to 4$\pi$ acceptance ($y=[-2, 2]$) window.
+
+\section{$\Xi^{-}$ Reconstruction}
+The $\Xi^{-}$ are reconstructed via the hadronic decay channel $\Xi^{-}\rightarrow \Lambda+\pi^{-}$ with a branching ratio (B.R.) of 99.9\% and $\Lambda\rightarrow p+\pi^{-}$ with a branching ratio (B.R.) of 63.9\%. For particle identification of pions and protons, we use $|n\sigma_{p/\pi}|<3$. If TOF information is available, we will add cuts: $-0.06<m^2_{\pi}<0.1$, $0.5<m^2_{p}<1.5$.
+
+Fig.~\ref{fig:tof} shows TOF $m^2$ information versus momentum achieved from Run18 Au+Au 3GeV, there are several clear bands for different particle species such as $\pi, k, p$, also the red dash line indicate the cut that we applied.
+\begin{figure*}[hbt!]
+\includegraphics[width=0.44\linewidth]{chapterZ/fig/hTof_pid.pdf}
+\caption{TOF $m^2$ versus momentum achieved from Run18 Au+Au 3GeV.}
+\label{fig:tof}
+\end{figure*}
+
+We are using the KFParticle package to reconstruct $\Xi^{-}$. The cuts used for the analysis are listed in Tab.~\ref{tab:kfptcxicuts}. 
+
+\begin{table*}
+\caption{Tracks and topological cuts for $\Xi^{-}$ analysis.}
+\label{tab:kfptcxicuts}
+\begin{tabular}{|c|c|}
+\hline
+nHitsFit$>=$15 \\ \hline
+$\chi^{2}_{topo}<10$ \\ \hline
+$\chi^{2}_{NDF}<10$ \\ \hline
+$\Xi^{-}$ decay length $<$ $\Lambda(\leftarrow\Xi$) decay length \\ \hline
+$LdL_{\Xi^-}>6$ \\ \hline
+$DCA_{\Lambda-\pi}<0.8$ cm\\ \hline
+$DCA_{p-\pi^{-}_{\text{bach}}}<0.8$ cm\\ \hline
+$\chi^{2}_{prim}>10$ \\ \hline 
+\end{tabular}
+\end{table*}
+
+%$DCA_{\Xi\rightarrow\Lambda-\Xi\rightarrow\pi}<0.8$ \\ \hline
+%$DCA_{\Xi\rightarrow\Lambda\rightarrow p-\Xi\rightarrow\Lambda\rightarrow\pi}<0.8$ \\ \hline
+
+\begin{figure*}[hbt!]
+\includegraphics[width=0.6\linewidth]{chapterZ/fig/signal_2}
+\caption{Signal and background invariant mass distribution for $\Lambda-\pi^{-}$ pairs the $p_{\rm T}$ region of 0.5-2.0 $GeV/c$ for 0-40\% central collisions, shown in black point. Rotation background, residual background are shown in blue open circle and blue dash line, respectively. The final background subtracted $\Lambda-\pi^{-}$ pairs is shown in red line, the counting window is indicated as the vertical red dash lines.}
+\label{xi_signal}
+\end{figure*}
+
+Fig.~\ref{xi_signal} show the invariant mass distribution for $\Lambda-\pi^{-}$ pairs in the $p_{\rm T}$ region of 0.5-2.0 $GeV/c$ for 0-40\% central collisions. We will take this plot to show how we extract the $\Xi^{-}$ counts. For all the $p_{\rm T}$-rapidity bins invariant mass spectrum fit can be found in the appendix \ref{sub:apdA}. 
+
+To obtain the number of $\Xi^{-}$ signal, we are subtracting the background from raw counts after applying those cuts (Tab.~\ref{tab:kfptcxicuts}). In our analysis we are using rotation background, which is rotating the bachelor $\pi^{-}$ tracks by a random degree in 150 to 210 degree then reconstruct $\Xi^{-}$ by $\Lambda-\pi^{-}$ pair. In order to decrease the fluctuations and statistical uncertainty from this rotation background, we generated 20 times of total number of event, so we at the end need to scaled it back into the correct number of event. The normalization is using the side band region $(1.30, 1.31)$ and $(1.34, 1.35)\rm{GeV}/c^2$. The data and the background are shown in Fig.~\ref{xi_signal} in black solid and blue open circle. The background is subsequently subtracted from the data which is shown in blue line. One can see that the background is well described by the rotation method. In case there is any residual background we fit the remaining $\Xi^{-}$ distribution with Gaussian + linear function, the linear function (blue dash line) is to take care of the residual background. The signal $\Xi^{-}$ is shown in red line, the fit region is $(1.31, 1.35) \rm{GeV}/c^2$. We extract the background counts (pol1) inside $|m-m_{\text{PDG}}|<3\sigma$ window, where the $\sigma$ is from the $0-60\%$ invariant mass fit and it's fixed in the fitting procedure and are indicated as the two vertical red dash lines in Fig.~\ref{xi_signal}. Bin counting method is used to extract counts in peak region, signal counts = data - bkg counts(linear function integrated in $3\sigma$ window). The statistics error was propagate from the fitting.
+
+\begin{figure*}[hbt!]
+\includegraphics[width=0.44\linewidth]{chapterZ/fig/xi_acc_0.pdf}
+\includegraphics[width=0.44\linewidth]{chapterZ/fig/xi_acc_1.pdf}
+\caption{Acceptance of $\Xi^{-}$ for $0-10\%$(left) and $10-40\%$(right) centrality at $\sqrt{s_{NN}}$ = 3 GeV.}
+\label{xi_acceptance}
+\end{figure*}
+
+Fig.~\ref{xi_acceptance} shows schematically the number of counts as a function of rapidity and transverse momentum in $0-10\%$ and $10-40\%$ centrality. To make sure each bin has a significance $>2$, acceptance is divided into 4 rapidity bins, and for each rapidity bins, there are 3 or 4 $p_{\rm T}$ bins.
+
+\section{Efficiency Correction}
+
+\begin{figure*}[hbt!]
+\includegraphics[width=0.44\linewidth]{chapterZ/fig/xi_eff_rec_0}
+\includegraphics[width=0.44\linewidth]{chapterZ/fig/xi_eff_rec_1}
+\caption{Reconstruction efficiency of $\Xi^{-}$, as a function of $y$ and $p_{\rm{T}}$ for $0-10\%$(left) and $10-40\%$(right) centrality at $\sqrt{s_{NN}}$ = 3 GeV.}
+\label{xi_eff}
+\end{figure*}
+
+The kinematic regions listed in the previous section does not have uniform efficiency, hence we need to apply efficiency correction. To calculate the efficiency, we reconstruct $\Xi^{-}$ from embedding samples. The efficiency is obtained by dividing the number of reconstructed $\Xi^{-}$ by the number of input $\Xi^{-}$, for each $y$ and $p_{\rm T}$ bin. The track and topological cuts used are identical to the ones used in the data analysis (the cuts listed in Tab.~\ref{tab:kfptcxicuts}) except we don't apply TOF and TPC cut. The 2D efficiency is shown in Fig.~\ref{xi_eff}. 
+
+In our analysis, we don't do the TPC and TOF cut efficiency correction, and the efficiency effect should be small since we only have applied a very loose TPC and TOF cut. As can be seen from Fig.~\ref{fig:tof} TOF $m^2$ distributions, the PID cut is very loose, the PID efficiency should be about 1. And for the TPC $n\sigma$ cut efficiency, we firstly use a tight $m^2$ cut to select the samples, then like in $\phi$-meson analysis assuming they follow the Gaussian function and get the mean value and sigma value as plotted in Fig.~\ref{fig:pid_eff} upper two plots, and bottom plot shows the corresponding TPC $n\sigma$ cut efficiency for both kaon and pions, the efficiency is around 1.
+
+\begin{figure*}[hbt!]
+\includegraphics[width=0.34\linewidth]{chapterZ/fig/PIDeff_mean.pdf}
+\includegraphics[width=0.34\linewidth]{chapterZ/fig/PIDeff_sigma.pdf}
+\includegraphics[width=0.34\linewidth]{chapterZ/fig/PIDeff_eff.pdf}
+\caption{n$\sigma_{\pi}$, n$\sigma_{p}$ mean, sigma and efficiency along with momentum p in Run18 Au+Au collisions at 3 GeV.}
+\label{fig:pid_eff}
+\end{figure*}
+
+To ensure the efficiency obtained is reliable, we compared the topological variables from data, and embedding. The cuts used will be varied as an estimate of the systematic uncertainties associated to efficiency corrections. It was confirmed that the topological variables can be reasonably described by the embedding~\url{(https://drupal.star.bnl.gov/STAR/system/files/210407_3GeV_Xiv1_pwg.pdf)}. For example, Fig.~\ref{fig:emb_check} show the $\chi^2$ primary of $p/\pi$, $\Xi^-$ decayed $\Lambda-\pi$ DCA and $\Lambda$ decayed $p-\pi$ DCA distribution's comparision between data(black point) and embedding(red line). We can see the embedding is well consistent with data.
+
+\begin{figure*}[hbt!]
+\includegraphics[width=0.8\linewidth]{chapterZ/fig/drawTopo_nhits.pdf}
+\includegraphics[width=0.8\linewidth]{chapterZ/fig/drawTopo_dca.pdf}
+\caption{The $\chi^2$ primary of $p/\pi$, $\Xi^-$ decayed $\Lambda-\pi$ DCA and $\Lambda$ decayed $p-\pi$ DCA distribution's comparision between data(black point) and embedding(red line).}
+\label{fig:emb_check}
+\end{figure*}
+
+
+The cuts used will be varied as an estimate of the systematic uncertainties associated to efficiency corrections.
+
+
+\begin{figure*}[hbt!]
+\includegraphics[width=0.6\linewidth]{chapterZ/fig/xidNdmT_Rotation_EPmethod_fxt3GeV.pdf}
+\includegraphics[width=0.62\linewidth]{chapterZ/fig/xidNdpT_Rotation_EPmethod_fxt3GeV.pdf}
+\includegraphics[width=0.64\linewidth]{chapterZ/fig/xidNdY_Rotation_EPmethod_fxt3GeV.pdf}
+\caption{ Efficiency corrected $\Xi^{-}$ $p_{\rm T}$ spectra(upper), $m_{\rm T}$ spectra(middle) and dN vs. y distribution(bottom) for $0-10\%$ and $10-40\%$ centrality at $\sqrt{s_{NN}}$ = 3 GeV.}
+\label{flat_dndpt}
+\end{figure*}
+
+With those unweighted efficiency, we correct for data $dN/dp_{\rm T}$ spectrum to get a realistic $\Xi^{-}$ $dN/dp_{\rm T}$ spectrum and $dN/dy$ distributions. We taking $p_{\rm T}$ spectrum in $y[-0.8, 0]$ range, fitting with $m_{\rm T}$ exponential function with fit option "I", take the fit function as our real data $p_{\rm T}$ spectrum, showing Fig.~\ref{flat_dndpt} upper plot the cyan line. The middle plots are the $m_{\rm T}$ spectrum and the fit line is using the fit parameters from upper plots. To get dN vs. y distribution, we using 4 rapidity bins [-0.8, -0.6], [-0.6, -0.4],[-0.4, -0.2],[-0.2, 0], shown if upper plots in different color. For the integral yield, we rely on $m_{\rm T}$ exponential functions to extrapolate to unmeasured $p_{\rm T}$ region. The rapidity distributions is displayed in bottom plots. The full symbols show the measured data, while the open ones are data reflected with respect to $y = 0$ in the center-of-mass frame. Solid lines depict Gaussian function fits to the data points and are used to extrapolate to the unmeasured rapidity region. In the fitting procedure, the center of the Gaussian was fixed at zero to take into account the symmetry of the reaction. 
+
+
+\begin{figure*}[hbt!]
+\includegraphics[width=0.44\linewidth]{chapterZ/fig/drawEff_comp_cent0}
+\includegraphics[width=0.44\linewidth]{chapterZ/fig/drawEff_comp_cent1}
+\caption{$\Xi^{-}$ reconstruction efficiency before and after weighting, for each $p_{\rm T}$-rapidity bins, for $0-10\%$(left) and $10-40\%$(right) centrality at $\sqrt{s_{NN}}$ = 3 GeV.}
+\label{eff_comp}
+\end{figure*}
+Now we use the $m_{\rm T}$ exponential function from $y[-0.8, 0]$ for the input $p_{\rm T}$, Gaussian function for the input rapidity, weight to both the MC generated and reconstructed $\Xi^{-}$ 2D acceptance. Divide number of reconstructed counts by input MC counts to obtain efficiency. Fig.~\ref{eff_comp} show the reconstruction efficiency before and after weighting, for each $p_{\rm T}$-rapidity bins. The open marker is from flat embedding sample, solid point is after efficiency correction. We can see a clear difference after efficiency correction on wider $p_{\rm T}$ bins.
+
+\section{Systematic Uncertainties}
+
+We estimate systematic uncertainties in: efficiency corrections, and raw yield extraction. For raw yield extraction, we vary the signal fitting range. For efficiency corrections, we vary topological cuts and nHitsFit cut. The details are summarized in Tab.~\ref{tab:sysCuts}. For multiple variations of a variables, the maximum difference compare to the default one is taken as the systematic uncertainties source. 
+
+For the integral yield, one important uncertainties coming from the extrapolation to the unmeasured region. The default function formula is $m_{\rm T}$ exponential and different functional formula include the levy function, the blast-wave function, first order $p_{\rm T}$ exponential function are also be used, and the maximum difference compare to the default one is taken as the systematic uncertainties source. 
+
+The final systematic error is to add all systematic source in quadrature.
+
+\begin{table}
+\caption{Tracks and topological cuts for $\Xi^{-}$ systematic uncertainty analysis. The bracketed values are the default selection, and the other values are for systematic uncertainty analysis.}
+\label{tab:sysCuts}
+\begin{tabular}{|c|c|}
+\hline
+Topological cuts: \\ \hline
+$LdL_{\Xi^-}>5,(6),7$ \\ \hline
+$DCA_{\Lambda-\pi}<0.7,(0.8),0.9 cm$ \\ \hline
+$DCA_{p-\pi^{-}}<0.6,(0.8),1 cm$ \\ \hline
+$\chi^{2}_{prim} >5,(10),15$ \\ \hline 
+\\ \hline
+Track nHitsFit: \\ \hline
+nHitsFit$>=$(15),17,23 \\ \hline
+\\ \hline
+raw yield extraction fit region: \\ \hline
+($\pm 10\sigma$), $\pm 8\sigma$, $\pm 6\sigma$ \\ \hline
+\\ \hline
+Extrapolation to 0 $p_{\rm T}$: \\ \hline
+(exp $m_{\rm T}$), levy, BW, exp $p_{\rm T}$\\ \hline
+\\ \hline
+\end{tabular}
+\end{table}
+
+
+\begin{figure*}[hbt!]
+\includegraphics[width=0.4\linewidth]{chapterZ/fig/fig3_Yield1_combine_mT_rapidity_-0.20_0.00.png}
+\includegraphics[width=0.4\linewidth]{chapterZ/fig/fig3_Yield1_combine_mT_rapidity_-0.40_-0.20.png}
+\includegraphics[width=0.4\linewidth]{chapterZ/fig/fig3_Yield1_combine_mT_rapidity_-0.60_-0.40.png}
+\includegraphics[width=0.4\linewidth]{chapterZ/fig/fig3_Yield1_combine_mT_rapidity_-0.80_-0.60.png}
+\caption{Efficiency corrected $\Xi^{-}$ $m_{\rm T}$ spectra comparison for different cuts, for $0-10\%$ and $10-40\%$ centrality at $\sqrt{s_{NN}}$ = 3 GeV.}
+\label{fig:dNdmT_y}
+\end{figure*}
+% dNdpt, sys
+Fig.~\ref{fig:dNdmT_y} show the weighted efficiency corrected $m_{\rm T}$ distributions for several rapidity bins, the different markers represent results from different cuts as list in the legend. As we can see, most of the data points are grouped together. For the systematic uncertainties, the contributions varied by $p_{\rm T}$ and rapidity bins, Tab.~\ref{tab:syserr_dNdmT_y} lists the relative systematic uncertainty contribution from different cut in each rapidity bin for the $0-10\%$ and $10-40\%$ centrality.
+
+\begin{table}[]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline
+        0-10\% & nHitsFit & $\chi^{2}$ primary & $\Xi^{-}$ LdL & $p-\pi^{-}$ dca & $\Lambda-\pi^{-}$ dca & count \\ \hline
+        $-0.80<y<-0.60$ &10-18\% & 5-12\% & 5-9\% & 4-7\% & 3-10\% & 2-3\%   \\
+        $-0.60<y<-0.40$ &2-21\% & 4-12\% & 4-9\% & 1-15\% & 2-10\% & 1-5\%   \\
+        $-0.40<y<-0.20$ &1-21\% & 4-13\% & 6-10\% & 2-15\% & 3-10\% & 1-5\%   \\
+        $-0.20<y<0.00$  &3-21\% & 2-13\% & 3-10\% & 2-15\% & 1-10\% & 5-12\%   \\
+        \hline
+        10-40\% & nHitsFit & $\chi^{2}$ primary & $\Xi^{-}$ LdL & $p-\pi^{-}$ dca & $\Lambda-\pi^{-}$ dca & count \\ \hline
+        $-0.80<y<-0.60$ &5-12\% & 3-14\% & 5-7\% & 2-4\% & 3-7\% & 1-2\%   \\
+        $-0.60<y<-0.40$ &4-31\% & 7-28\% & 3-12\% & 2-5\% & 4-14\% & 1-15\%   \\
+        $-0.40<y<-0.20$ &3-31\% & 6-28\% & 3-12\% & 1-7\% & 4-14\% & 2-15\%   \\
+        $-0.20<y<0.00$  &4-31\% & 4-28\% & 3-12\% & 3-7\% & 6-14\% & 6-18\%   \\
+        \hline
+    \end{tabular}
+    \caption{systematic uncertainty contribution from different cut for $m_{\rm T}$ spectra, systematic uncertainties varied by $p_{\rm T}$ bins.}
+    \label{tab:syserr_dNdmT_y}
+\end{table}
+
+
+% fit extropolation
+\begin{figure*}[hbt!]
+\includegraphics[width=0.24\linewidth]{chapterZ/fig/fig55_30_Yield1_combine_dNdpT_rapidity_-0.20_0.00_0.png}
+\includegraphics[width=0.24\linewidth]{chapterZ/fig/fig55_20_Yield1_combine_dNdpT_rapidity_-0.40_-0.20_0.png}
+\includegraphics[width=0.24\linewidth]{chapterZ/fig/fig55_10_Yield1_combine_dNdpT_rapidity_-0.60_-0.40_0.png}
+\includegraphics[width=0.24\linewidth]{chapterZ/fig/fig55_00_Yield1_combine_dNdpT_rapidity_-0.80_-0.60_0.png}
+\includegraphics[width=0.24\linewidth]{chapterZ/fig/fig55_31_Yield1_combine_dNdpT_rapidity_-0.20_0.00_1.png}
+\includegraphics[width=0.24\linewidth]{chapterZ/fig/fig55_21_Yield1_combine_dNdpT_rapidity_-0.40_-0.20_1.png}
+\includegraphics[width=0.24\linewidth]{chapterZ/fig/fig55_11_Yield1_combine_dNdpT_rapidity_-0.60_-0.40_1.png}
+\includegraphics[width=0.24\linewidth]{chapterZ/fig/fig55_01_Yield1_combine_dNdpT_rapidity_-0.80_-0.60_1.png}
+\caption{Efficiency corrected $\Xi^{-}$ $p_{\rm T}$ spectra comparison for different function extrapolation, for 0-10\%(upper) and 10-40\%(bottom) centrality.}
+\label{fig:dNdpT_y}
+\end{figure*}
+
+The default function formula is $m_{\rm T}$ exponential, we have different functional formula include the levy function, the blast-wave function, first order $p_{\rm T}$ exponential function. Fig.~\ref{fig:dNdpT_y} shows the dN/d$p_{\rm T}$ distributions for several rapidity bins for 0-10\% and 10-40\% centrality, the lines represent different functions as list in the legend. As can see, all four functions can describe the measured data reasonable well, even though they have some difference at low $p_{\rm T}$ which limited by the data precision. The default function used for the extrapolation to the unmeasured range is the exponential function, while the others are quoted as the systematic uncertainties. On each plot, we list the integral yield, as can see the difference can vary as large as 12-19\% for $0-10\%$ centrality and 13-16\% for $10-40\%$ centrality.
+
+% dNdy
+\begin{figure*}[hbt!]
+\includegraphics[width=0.4\linewidth]{chapterZ/fig/fig7_total_combine_dNdy_rapidity_cent0.png}
+\includegraphics[width=0.4\linewidth]{chapterZ/fig/fig7_total_combine_dNdy_rapidity_cent1.png}
+\caption{Efficiency corrected $\Xi^{-}$ dN vs. y distribution, the line show the statistic uncertainty and the bracket shows the total systematic uncertainty}
+\label{fig:dNdy}
+\end{figure*}
+
+\begin{table}[]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|c|}
+    \hline
+        0-10\% & nHitsFit & $\chi^{2}$ primary & $\Xi^{-}$ LdL & $p-\pi^{-}$ dca & $\Lambda-\pi^{-}$ dca & count & fit extrapolation \\ \hline
+        $-0.80<y<-0.60$ & 7\% & 19\% & 8\% & 10\% & 7\% & 7\% & 19\%   \\
+        $-0.60<y<-0.40$ & 11\% & 3\% & 6\% & 11\% & 6\% & 3\% & 12\%   \\
+        $-0.40<y<-0.20$ & 6\% & 9\% & 4\% & 2\% & 5\% & 2\% & 12\%   \\
+        $-0.20<y<0.00$  & 16\% & 6\% & 4\% & 7\% & 3\% & 4\% & 14\%   \\
+        \hline
+        10-40\% & nHitsFit & $\chi^{2}$ primary & $\Xi^{-}$ LdL & $p-\pi^{-}$ dca & $\Lambda-\pi^{-}$ dca & count & fit extrapolation \\ \hline
+        $-0.80<y<-0.60$ & 4\% & 16\% & 7\% & 4\% & 1\% & 2\% & 13\%  \\
+        $-0.60<y<-0.40$ & 22\% & 7\% & 3\% & 3\% & 5\% & 13\% & 16\%   \\
+        $-0.40<y<-0.20$ & 7\% & 7\% & 2\% & 2\% & 6\% & 3\% & 15\%   \\
+        $-0.20<y<0.00$ & 14\% & 4\% & 3\% & 4\% & 11\% & 24\% & 14\%   \\
+        \hline
+    \end{tabular}
+    \caption{systematic uncertainty contribution from different cut for dN vs. y distribution.}
+    \label{tab:syserr_dNdy}
+\end{table}
+Fig.~\ref{fig:dNdy} shows the $\Xi^{-}$ $dN/dy$ distributions for 0-10\% and 10-40\% centrality, the line show the statistic uncertainty and the bracket shows the total systematic uncertainty include uncertainties from extrapolation and topological cuts, raw yield extraction. Tab.~\ref{tab:syserr_dNdy} lists the relative systematic uncertainty contribution from different cut in each rapidity bin.
+
+\begin{figure*}[hbt!]
+\includegraphics[width=0.89\linewidth]{chapterZ/fig/xidTdYSys_chi2prim_show}
+\caption{Efficiency corrected $\Xi^{-}$ T vs. y distribution, the line show the statistic uncertainty and the bracket shows the total systematic uncertainty}
+\label{fig:dTdy}
+\end{figure*}
+
+\begin{table}[]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline
+        0-10\% & nHitsFit & $\chi^{2}$ primary & $\Xi^{-}$ LdL & $p-\pi^{-}$ dca & $\Lambda-\pi^{-}$ dca & count \\ \hline
+        $-0.80<y<-0.60$ &2\% & 7\% & 6\% & 4\% & 2\% & 2\%   \\
+        $-0.60<y<-0.40$ &2\% & 1\% & 1\% & 3\% & 1\% & 1\%   \\
+        $-0.40<y<-0.20$ &3\% & 3\% & 2\% & 1\% & 1\% & 0\%   \\
+        $-0.20<y<0.00$  &5\% & 3\% & 1\% & 2\% & 1\% & 2\%   \\
+        \hline
+        10-40\% & nHitsFit & $\chi^{2}$ primary & $\Xi^{-}$ LdL & $p-\pi^{-}$ dca & $\Lambda-\pi^{-}$ dca & count \\ \hline
+        $-0.80<y<-0.60$ &5\% & 3\% & 1\% & 2\% & 1\% & 2\%   \\
+        $-0.60<y<-0.40$ &3\% & 3\% & 2\% & 1\% & 1\% & 0\%   \\
+        $-0.40<y<-0.20$ &2\% & 1\% & 1\% & 3\% & 1\% & 1\%   \\
+        $-0.20<y<0.00$  &2\% & 7\% & 6\% & 4\% & 2\% & 2\%   \\
+        \hline
+    \end{tabular}
+    \caption{systematic uncertainty contribution from different cut for T vs. y distribution.}
+    \label{tab:syserr_dTdy}
+\end{table}
+On the other hand, from the $m_{\rm T}$ exponential function fit of the $dN/dp_{\rm T}$ spectrum, we can extract the fit parameter T. Fig.~\ref{fig:dTdy} shows the $\Xi^{-}$ T vs. y distribution distributions for 0-10\% and 10-40\% centrality, the line show the statistic uncertainty and the bracket shows the total systematic uncertainty include uncertainties from different topological cuts, raw yield extraction. Tab.~\ref{tab:syserr_dTdy} lists the relative systematic uncertainty contribution from different cut in each rapidity bin. 
+
+
+%Ntot
+By integrating the measured rapidity and using the Gaussian fit to extrapolate, the multiplicities per triggered event of the $\Xi^{-}$ can be obtained. Tab.~\ref{tab:syserr_N} shows the $\Xi^{-}$ integrated yield production $N_{\rm tot}$ systematic uncertainty for each systematic uncertainty source at $0-10\%$ and $10-40\%$ centrality, we can see the most largest one is from fit extrapolation. 
+\begin{table}[]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|c|}
+    \hline
+        Centrality & nHitsFit & $\chi^{2}$ primary & $\Xi^{-}$ LdL & $p-\pi^{-}$ dca & $\Lambda-\pi^{-}$ dca & count & fit extrapolation\\ \hline
+        0-10\% & 8\% & 5\% & 1\% & 3\% & 3\% & 1\% & 14\%   \\
+        10-40\% & 3\% & 3\% & 2\% & 1\% & 3\% & 5\% & 14\%   \\
+        \hline
+    \end{tabular}
+    \caption{systematic uncertainty contribution from different cut for total integrated yield production $N_{\rm tot}$.}
+    \label{tab:syserr_N}
+\end{table}
+
+By fitting the measured $dT/dy$ with $\cosh{(y)}$, the $T_{\rm eff}$ parameters can be obtained. Tab.~\ref{tab:syserr_T} shows the $T_{\rm eff}$ parameters systematic uncertainty for each systematic uncertainty source at $0-10\%$ and $10-40\%$ centrality, we can see the most largest one is from fit extrapolation. 
+\begin{table}[]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline
+        Centrality & nHitsFit & $\chi^{2}$ primary & $\Xi^{-}$ LdL & $p-\pi^{-}$ dca & $\Lambda-\pi^{-}$ dca & count \\ \hline
+        0-10\% &7\% & 8\% & 7\% & 7\% & 7\% & 7\%   \\
+        10-40\% &5\% & 6\% & 5\% & 5\% & 5\% & 5\%   \\
+        \hline
+    \end{tabular}
+    \caption{systematic uncertainty contribution from different cut for total integrated yield production $T_{\rm eff}$.}
+    \label{tab:syserr_T}
+\end{table} 
+
+For the individual $\phi$-meson and $\Xi^{-}$ measurement, there are two common uncertainties which are correlated or partially correlated: nHitsFit and $\chi^2$ primary(CA for $\phi$ analysis) cuts. To avoid the correlation in the $\phi/\Xi$ ratio measurement, we vary the above cuts simultaneous for $\phi$ and $\Xi^{-}$,  then quote the final ratio difference directly as the systematic uncertainties. For the other sources, include n$\sigma_{k}$, $1/\beta$, $\Xi^{-}$ LdL, $p-\pi^{-}$ dca, $\Lambda-\pi^{-}$ dca, $\Xi^{-}$ raw yield extraction, $\phi$ and $\Xi^{-}$ low $p_{\rm T}$ extropolation, those compotents are added quadratic for the $\phi/\Xi^{-}$ ratio. Tab.~\ref{tab:syserr_ratio} gives the $\phi/\Xi^-$ ratio systematic uncertainties for each systematic uncertainty source at $0-10\%$ and $10-40\%$ centrality. For the systematic uncertainties, in general, nHitsFit, $\chi^{2}$ primary and $\Xi^-$, $\phi$ fit extrapolation contributed a lot.
+
+\begin{table}[]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+    \hline
+        Centrality & nHitsFit & $\chi^{2}$ primary &n$\sigma_{k}$ &$1/\beta$ & $\Xi^{-}$ LdL & $p-\pi^{-}$ dca & $\Lambda-\pi^{-}$ dca & $\Xi^-$ count & $\Xi^-$ extra. & $\phi$ extra. \\ \hline
+        0-10\% & 10\% & 6\% & 0\% & 1\% & 1\% & 3\% & 3\% & 1\% & 14\% & 15\% \\
+        10-40\% & 14\% & 12\% & 1\% & 1\% & 2\% & 1\% & 3\% & 4\% & 14\% & 14\% \\
+        \hline
+    \end{tabular}
+    \caption{The $\phi/\Xi^-$ ratio systematic uncertainties for each systematic uncertainty source at $0-10\%$ and $10-40\%$ centrality.}
+    \label{tab:syserr_ratio}
+\end{table}
+
+The measured $\Xi^{-}$ in $4\pi$ and the extracted $T_{\rm eff}$ parameters as well as $\phi/\Xi^-$ ratio in different centrality bins are listed in Tab.~\ref{tab:syserr_N_And_T}. 
+\begin{table}[]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+        Centrality & $<\Xi>$ ($10^{-3}$) & $T_{\rm eff} (MeV)$ & $\phi/\Xi^{-}$ \\ \hline
+        0-10\% & $13.87\pm 0.76 \pm 2.36$ & $156\pm 3 \pm 26$  & $1.45\pm 0.13\pm 0.34$\\
+        10-40\% & $3.61 \pm 0.32 \pm 0.59$ & $146\pm 4 \pm 19$ & $2.34 \pm 0.23\pm 0.65$\\
+        \hline
+    \end{tabular}
+    \caption{$\Xi^{-}$ integrated yield and $T_{\rm eff}$ as well as $\phi/\Xi^-$ ratio for given centrality classes in Au+Au collisions at $\sqrt{s_{NN}}$ = 3 GeV. The first given error corresponds to the statistical, the second to the systematic error.}
+    \label{tab:syserr_N_And_T}
+\end{table}
+
+\section{Results and Discussion}
+Fig.~\ref{fig:final_ratio} shows the $\phi/\Xi^-$ ratio as a function of center of mass energy $\sqrt{s_{NN}}$. The colored full symbols show these measurement in two centrality bins, whereas the other data points represented by different markers from various energies and collision system. The red arrow depict the $\Xi^-$ production threshold in NN collisions. The grey solid line represent the calculation from grand canonical ensemble calculation (GCE). The blue band shows transport model calculations from UrQMD.
+
+\begin{figure*}[hbt!]
+\includegraphics[width=0.54\linewidth]{chapterZ/fig/phi_over_ksi_zoomin.pdf}
+\caption{$\phi/\Xi^-$ ratio as a function of center of mass energy $\sqrt{s_{NN}}$. The Colored symbols represent two different centralities.}
+\label{fig:final_ratio}
+\end{figure*}
+
+
+\section{Sanity checks}
+\subsection{$\Xi^{-}$ spectra symmetry along with rapidity}
+We have the acceptance with $0<y<0.4$, by checking if there is a rapidity symmetry alone 0 for $\Xi^{-}$ $p_{T}$ spectrum after efficiency correction, we can test if the $\Xi^{-}$ reconstruction efficiency is reliable. 
+Fig.\ref{fig:rap_check}  shows the $\Xi^{-}$ efficiency corrected $p_{\rm T}$ spectra at 0-10\%, 10-40\%, 0-40\% collisions as a function of transverse momentum for two flipped rapidity regions, one is for positive rapidity and another is for negative. We see the positive rapidity $p_{\rm T}$ spectra is consistent with negative rapidity regions within statistic uncertainty.
+\begin{figure*}[hbt!]
+\includegraphics[width=0.89\linewidth]{chapterZ/fig/xidNdpT_Rotation_EPmethod_fxt3GeV_eta1.pdf}
+\includegraphics[width=0.89\linewidth]{chapterZ/fig/xidNdpT_Rotation_EPmethod_fxt3GeV_eta2.pdf}
+\caption{$\Xi^{-}$ $dN/dp_{\rm T}$ spectra at 0-10\%, 10-40\%, 0-40\% collisions as a function of transverse momentum for several rapidity regions.}
+\label{fig:rap_check}
+\end{figure*}
+
+Fig.\ref{fig:dNdmT_rap_check} represent efficiency corrected the invariant yield as a function of transverse mass kinetic energy $(m_{T}-m_{0})$ for various rapidity regions in 0–40\% centrality. Dashed lines depict exponential function fits to the measured data points. We see the positive rapidity $p_{\rm T}$ spectra is consistent with negative rapidity regions within total statistic and systematic uncertainty.
+\begin{figure*}[hbt!]
+\includegraphics[width=0.4\linewidth]{chapterZ/fig/fig2_Yield1_combine_rapidity_0-40.png}
+\caption{Efficiency corrected $\Xi^{-}$ $m_{\rm T}$ spectra comparison for different rapiditys, for 0-40\% centrality at $\sqrt{s_{NN}}$ = 3 GeV.}
+\label{fig:dNdmT_rap_check}
+\end{figure*}
+
+\subsection{$\Xi^{-}$ spectra with exclusive eta cut}
+Since the embedding have some discrepancy with the data, we also did this exclusive check like in $K^{-}$ spectra by removing those $-0.3<\eta<0$ ranges tracks and do the systematic checks on the $p_{\rm T}$ spectra and rapidity distributions. Fig.~\ref{fig:dNdpT_eta} shows the $\Xi^{-}$ $p_{\rm T}$ spectra at 0-10\% collisions for the default inclusive one $(\eta<0)$ and exclusive one $(\eta<-0.3)$. As can see they are consistent within the rapidity acceptance ranges $-0.8<y<0$.
+
+Fig.~\ref{fig:dN_eta} shows the comparison of the rapidity distributions between the default inclusive one $(\eta<0)$ and exclusive one $(\eta<-0.3)$. After perform the Gaussian fit, right plot also shows the integrated cross-section values with different colors, the difference is about 3\%.
+
+\begin{figure*}[hbt!]
+\includegraphics[width=0.24\linewidth]{chapterZ/fig/drawCompdNdpT_icent0_irap3.pdf}
+\includegraphics[width=0.24\linewidth]{chapterZ/fig/drawCompdNdpT_icent0_irap2.pdf}
+\includegraphics[width=0.24\linewidth]{chapterZ/fig/drawCompdNdpT_icent0_irap1.pdf}
+\includegraphics[width=0.24\linewidth]{chapterZ/fig/drawCompdNdpT_icent0_irap0.pdf}
+\includegraphics[width=0.24\linewidth]{chapterZ/fig/drawCompdNdpT_icent1_irap3.pdf}
+\includegraphics[width=0.24\linewidth]{chapterZ/fig/drawCompdNdpT_icent1_irap2.pdf}
+\includegraphics[width=0.24\linewidth]{chapterZ/fig/drawCompdNdpT_icent1_irap1.pdf}
+\includegraphics[width=0.24\linewidth]{chapterZ/fig/drawCompdNdpT_icent1_irap0.pdf}
+\caption{Efficiency corrected $\Xi^{-}$ $p_{\rm T}$ spectra at 0-10\%(upper) and 10-40\%(bottom) collisions for the default inclusive one $(\eta<0)$ and exclusive one $(\eta<-0.3)$.}
+\label{fig:dNdpT_eta}
+\end{figure*}
+
+
+\begin{figure*}[hbt!]
+\includegraphics[width=0.7\linewidth]{chapterZ/fig/compSysdNdy.pdf}
+\includegraphics[width=0.7\linewidth]{chapterZ/fig/compSysdN.pdf}
+\caption{Comparison of the rapidity distributions (upper) and integrated cross-section values (bottom) between the default inclusive one $(\eta<0)$ and exclusive one $(\eta<-0.3)$.}
+\label{fig:dN_eta}
+\end{figure*}
+
+\subsection{$\Xi^{-}$ lifetime}
+To extract the lifetime, we first extract the number of raw counts in different $L/\beta\gamma$ bins, thus obtaining $\Delta N_{raw}/\Delta(L/\beta\gamma)$. We then correct these raw distributions by dividing by the efficiency as a function of $L/\beta\gamma$. The corrected yield is calculated using the formula:
+\begin{equation}
+\frac{\Delta N}{\Delta(L/\beta\gamma)}=\frac{1}{\varepsilon(L/\beta\gamma)}\times \frac{\Delta N_{raw}}{\Delta(L/\beta\gamma)}
+\end{equation}
+
+Finally, an exponential function is fitted to the distribution $\Delta N_{raw}/\Delta(L/\beta\gamma)$ with fit option "I". The measured lifetime is equal to the inverse of the negative slope of the fit divided by the speed of light.
+
+We use 5 $L/\beta\gamma$ bins for $\Xi$ [3, 6, 10, 16, 24, 40][cm], the invariant mass distributions for each bin are shown in Fig.~\ref{fig:mass_lbg} at 0-40\% collisions.
+\begin{figure*}[hbt!]
+\includegraphics[width=0.84\linewidth]{chapterZ/fig/massfit1.pdf}
+\includegraphics[width=0.42\linewidth]{chapterZ/fig/massfit2.pdf}
+\caption{Invariant mass of $\Lambda-\pi^{-}$ pairs in different $L/\beta\gamma$ bins at 0-40\% centrality.}
+\label{fig:mass_lbg}
+\end{figure*}
+
+The extracted $\Xi$ raw counts and efficiecny at 0-10\%, 10-40\%, 0-40\% are show in Fig.~\ref{fig:mass_raw}.
+\begin{figure*}[hbt!]
+\includegraphics[width=0.84\linewidth]{chapterZ/fig/massfit3.pdf}
+\caption{Extracted raw counts of $\Lambda-\pi^{-}$ pairs and efficiency as a function of $L/\beta\gamma$ bins at 0-10\%, 10-40\%, 0-40\% centrality.}
+\label{fig:mass_raw}
+\end{figure*}
+
+
+The yields can be described by a simple decay law:
+\begin{equation}
+N(t)=N_{0}e^{L/\beta\gamma c\tau}
+\end{equation}
+where $\tau$ is the lifetime and $c$ is the speed of light. Thus, we fit the corrected yield as a function of $L/\beta\gamma$ with a exponential function to extract the lifetime. The fit are shown in Fig.~\ref{fig:mass_lt}. This is consistent with $\Xi$ lifetime from PDG.
+\begin{figure*}[hbt!]
+\includegraphics[width=0.84\linewidth]{chapterZ/fig/massfit5.pdf}
+\caption{Corrected yield as a function of $L/\beta\gamma$ for $\Xi$ at 0-10\%, 10-40\%, 0-40\% centrality.}
+\label{fig:mass_lt}
+\end{figure*}
+
+
+\section{Appendix}
+\label{sub:apdA}
+Fig.~\ref{fig:xi_sig_all_cent1} shows $\Xi^{-}$ raw yield extraction invariant mass distribution for each rapidity bin at 0-10\% collisions.
+\begin{figure*}[hbt!]
+\includegraphics[width=0.88\linewidth]{chapterZ/fig/invMassVsYCent0_dNdYFow_Xi_Rotation_EPmethod_fxt3GeV.pdf}
+\includegraphics[width=0.88\linewidth]{chapterZ/fig/invMassVsYCent0_dNdY0_Xi_Rotation_EPmethod_fxt3GeV.pdf}
+\includegraphics[width=0.88\linewidth]{chapterZ/fig/invMassVsYCent0_dNdY1_Xi_Rotation_EPmethod_fxt3GeV.pdf}
+\includegraphics[width=0.88\linewidth]{chapterZ/fig/invMassVsYCent0_dNdY2_Xi_Rotation_EPmethod_fxt3GeV.pdf}
+\caption{Signal and background invariant mass distribution for $\Lambda-\pi^{-}$ pairs in different rapidity and $p_{\rm T}$ bins before efficiency correction, for $0-10\%$ collisions.}
+\label{fig:xi_sig_all_cent1}
+\end{figure*}
+
+Fig.~\ref{fig:xi_sig_all_cent2} shows $\Xi^{-}$ raw yield extraction invariant mass distribution for each rapidity bin at 10-40\% collisions.
+\begin{figure*}[hbt!]
+\includegraphics[width=0.88\linewidth]{chapterZ/fig/invMassVsYCent1_dNdYFow_Xi_Rotation_EPmethod_fxt3GeV.pdf}
+\includegraphics[width=0.88\linewidth]{chapterZ/fig/invMassVsYCent1_dNdY0_Xi_Rotation_EPmethod_fxt3GeV.pdf}
+\includegraphics[width=0.88\linewidth]{chapterZ/fig/invMassVsYCent1_dNdY1_Xi_Rotation_EPmethod_fxt3GeV.pdf}
+\includegraphics[width=0.88\linewidth]{chapterZ/fig/invMassVsYCent1_dNdY2_Xi_Rotation_EPmethod_fxt3GeV.pdf}
+\caption{Signal and background invariant mass distribution for $\Lambda-\pi^{-}$ pairs in different rapidity and $p_{\rm T}$ bins before efficiency correction, for $10-40\%$ collisions.}
+\label{fig:xi_sig_all_cent2}
+\end{figure*}
