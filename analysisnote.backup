@@ -1,0 +1,47 @@
+% 论文基本配置，加载宏包等全局配置
+%\input{setup}
+
+\begin{document}
+%\preprint{}
+
+%\title{
+%\Huge{Analysis Note: \\ \textbf{Anti-flow of Kaon in Au+Au Collisions at $\sqrt{s_{NN}}$ = 3 - 3.9 GeV}}
+%}
+%\author{\Large{Zuowen Liu, Li-ke Liu, Xing Wu, Guoping Wang}}
+%\affiliation{Key Laboratory of Quark $\&$ Lepton Physics (MOE) and Institute of Particle Physics, Central China Normal University, Wuhan, 430079, China}
+%\date{\today \ \ \ Version 1.0}
+
+%\frontmatter
+%\input{data/abstract}
+
+% 封面
+%\maketitle
+
+%\tableofcontents
+%\listoffigures
+%\listoftables
+
+%\newpage
+% 正文部分
+%\mainmatter
+
+%\linenumbers
+%\input{data/chapter01}
+
+%\input{data/chapter02}
+
+%\input{data/chapterZ}%Xi
+
+%\newpage
+% 其他部分
+%\backmatter
+
+% 参考文献
+%\bibliography{ref/refs}  % 参考文献使用 BibTeX 编译
+% \printbibliography       % 参考文献使用 BibLaTeX 编译
+
+% 附录
+%\appendix
+%\input{data/appendix}
+
+\end{document}

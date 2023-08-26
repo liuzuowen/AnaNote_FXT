@@ -1,54 +1,53 @@
+%!TEX TS-program = pdflatex
+\documentclass[preprint,showpacs,aps,prc,superscriptaddress]{revtex4-1}
+%\documentclass[showpacs,aps,prc,superscriptaddress]{report}
+
 % 论文基本配置，加载宏包等全局配置
 \input{setup}
-
 
 \begin{document}
 \preprint{}
 
 \title{
-\Huge{Analysis Note: \\ \textbf{Measurement of $\Xi$ production in Au+Au collisions at $\sqrt{s_{NN}}$ = 3 GeV}}
+\Huge{Analysis Note: \\ \textbf{Anti-flow of Kaon in Au+Au Collisions at $\sqrt{s_{NN}}$ = 3 - 3.9 GeV}}
 }
-\author{\Large{\underline{Yingjie Zhou}, Guannan Xie, Yaping Wang}}
+\author{\Large{Zuowen Liu, Li-ke Liu, Xing Wu, Guoping Wang}}
 %\affiliation{Key Laboratory of Quark $\&$ Lepton Physics (MOE) and Institute of Particle Physics, Central China Normal University, Wuhan, 430079, China}
 %\date{\today \ \ \ Version 1.0}
 
+% abstract
+\input{data/abstract}
 
-\begin{abstract}
-
-\noindent\rule[0.25\baselineskip]{\textwidth}{1pt}
-In this note, we present the first measurement of $\Xi^-$ hyperon production as well as the $\phi/\Xi^-$ratio in Au+Au collisions at $\sqrt{s_{NN}}$ = 3 GeV with the STAR experiment under its fixed target configuration at RHIC. $\Xi^-$ is measured through its hadronic decay channels, $\Xi^{-}\rightarrow \Lambda(p\pi^-)+\pi^{-}$. The transverse momentum ($p_{\rm T}$) spectra of $\Xi^-$ is presented in different centrality and rapidity intervals. The total production yields and the ratios within a $4\pi$ acceptance window are calculated and compared to thermal model predictions. The grand canonical ensemble (GCE) calculation shows a clear discrepancy from our measurement.
-\noindent\rule[0.25\baselineskip]{\textwidth}{1pt}
-\end{abstract}
+\newpage
 
 \maketitle
+\tableofcontents
 % \listoffigures
 % \listoftables
-\tableofcontents
 %\makeatletter
 %\let\toc@pre\relax
 %\let\toc@post\relax
 %\makeatother
 
 \newpage
+% 正文部分
+%\mainmatter
+\input{data/chapter01}
+\input{data/chapter02}
+%\linenumbers
+%\input{chapterZ/chapterZ}%Xi
+%\clearpage
 
-
-\linenumbers
-\input{data/chapterZ}%Xi
 \clearpage
+
+% 其他部分
+%\appendix
+%\input{Appendix/A}
 
 %\bibliography{bib}
 %\end{thebibliography}
 
-\clearpage
-
-%\appendix
-%\input{Appendix/A}
-
 %\bibliographystyle{plain}
-
-%\bibliographystyle{plain}
-
-
 
 
 \end{document}
