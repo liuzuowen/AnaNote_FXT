@@ -1,12 +1,11 @@
 %!TEX TS-program = pdflatex
 \documentclass[preprint,showpacs,aps,prc,superscriptaddress]{revtex4-1}
-%\documentclass[showpacs,aps,prc,superscriptaddress]{report}
 
 % 论文基本配置，加载宏包等全局配置
 \input{setup}
 
 \begin{document}
-\preprint{}
+%\preprint{}
 
 \title{
 \Huge{Analysis Note: \\ \textbf{Anti-flow of Kaon in Au+Au Collisions at $\sqrt{s_{NN}}$ = 3 - 3.9 GeV}}
@@ -16,14 +15,14 @@
 %\date{\today \ \ \ Version 1.0}
 
 % abstract
-\input{data/abstract}
+%\input{data/abstract}
 
 \newpage
 
 \maketitle
+%\listoffigures
+%\listoftables
 \tableofcontents
-% \listoffigures
-% \listoftables
 %\makeatletter
 %\let\toc@pre\relax
 %\let\toc@post\relax
@@ -31,23 +30,22 @@
 
 \newpage
 % 正文部分
-%\mainmatter
+%\linenumbers
 \input{data/chapter01}
 \input{data/chapter02}
-%\linenumbers
 %\input{chapterZ/chapterZ}%Xi
-%\clearpage
 
 \clearpage
 
 % 其他部分
+% 参考文献
+%\bibliography{ref/refs}  % 参考文献使用 BibTeX 编译
+%\printbibliography       % 参考文献使用 BibLaTeX 编译
+
+
+% 附录
 %\appendix
-%\input{Appendix/A}
-
-%\bibliography{bib}
-%\end{thebibliography}
-
-%\bibliographystyle{plain}
+%\input{data/appendix}
 
 
 \end{document}
