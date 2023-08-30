@@ -13,7 +13,7 @@ Third, badrun rejection and centrality determination are discussed.
 There are two modes at RHIC-STAR, Fixed Target mode and Collider mode. 
 FXT mode of STAR experiment covers center of mass energy($\snn$) from 3 to 13.7 GeV, which extends the measurement to lower energy intervals.
 In this way, FXT mode could reach higher baryon density region(up to 750 MeV). 
-To achieve this goal, One piece of gold foil would be fixed at the end of Time Projection Chamber(TPC) as target.
+To achieve this goal, One piece of gold foil would be fixed at the end of Time Projection Chamber(TPC) as target.\cite{PhysRevC.103.034908}
 And the accelerated gold beam from west would collide with it. Fig.~\ref{fig:FXTmode} shows the schematic plot for fixed target mode.
 \begin{figure}[hbt!]
 \centering
@@ -42,13 +42,34 @@ The detailed trigger and vertex cut are summarized in the TABLE.~\ref{tab:datase
 \begin{table}
 \caption{Dataset and event cuts for $\snn=3, 3.2, 3.5, 3.9 GeV$.}
 \label{tab:dataset}
-\begin{tabular}{|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|c|}
 \hline
-nHitsFit$>=$15 \\ \hline
-$\chi^{2}_{topo}<10$ \\ \hline
+$\snn$(GeV) & production tag & library tag & trigger ID & Vz(cm)     & Vr (cm) \\ \hline
+3.0         & P19ic          & SL20d       & 620052     & [198, 202] & 2       \\ \hline
+3.2         & ?          & ?       & ?     & [198, 202] & 2       \\ \hline
+3.5         & P21id          & SL21d       & 720000     & [198, 202] & 2       \\ \hline
+3.9         & ?          & ?       & ?     & [198, 202] & 2       \\ \hline
 \end{tabular}
 \end{table}
 
 
 %-------------------------------
 \subsection{Badrun rejection and centrality determination}
+
+Data production at STAR is run-by-run type, and the data is tagged with different run number.
+Run-by-run QA is necessary to reject the bad runs, which may caused by the broken detector et al.
+This job was finished by STAR QA group, and the badrun list used in this analysis could be found at the
+\href{https://drupal.star.bnl.gov/STAR/pwg/common/bes-ii-run-qa/FXT-datasets}{summary page} from QA group.
+
+Moreover, the centrality determination work is vital in Heavy Ion Collision.
+Glauber Monte Carlo(MC) simulation\cite{KHARZEEV2001121} would describe the reference multiplicity distribution, 
+which is corrected by pile-up rejection and luminosity correction.
+The number of participant particle($N_part$) and the number of collision particles($N_coll$)
+ can be extracted by the formula~\ref{eq:npart_ncoll} in MC model.
+ \begin{equation}
+    \frac{d N_{c h}}{d \eta}=n_{p p}\left[(1-x) \frac{N_{p a r t}}{2}+x N_{c o l l}\right]
+\label{eq:npart_ncoll}
+\end{equation}
+This work was finished by STAR Centrality group, a class(\href{https://github.com/star-bnl/star-sw/tree/main/StRoot/StRefMultCorr}{StRefMultCorr}) is provided.
+One can call the class and get the refMult cut.
+

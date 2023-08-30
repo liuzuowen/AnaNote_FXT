@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.1)  26 AUG 2023 17:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.1)  30 AUG 2023 16:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -625,18 +625,18 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip64
 \subfig@bottom=\skip65
 )
-Package hyperref Info: Option `CJKbookmarks' set `true' on input line 39.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 39.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 39.
-Package hyperref Info: Option `breaklinks' set `true' on input line 39.
-Package hyperref Info: Option `colorlinks' set `true' on input line 39.
-Package hyperref Info: Option `plainpages' set `false' on input line 39.
+Package hyperref Info: Option `CJKbookmarks' set `true' on input line 40.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 40.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 40.
+Package hyperref Info: Option `breaklinks' set `true' on input line 40.
+Package hyperref Info: Option `colorlinks' set `true' on input line 40.
+Package hyperref Info: Option `plainpages' set `false' on input line 40.
 )
-Class revtex4-1 Info: Unrecognized array package. Please update this document class! (Proceeding with fingers crossed.) on input line 7.
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 7.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 7.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 7.
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 7.
+Class revtex4-1 Info: Unrecognized array package. Please update this document class! (Proceeding with fingers crossed.) on input line 8.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 8.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 8.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 8.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 8.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -646,40 +646,40 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 ) (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.aux)
 \openout1 = `analysisnote.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 7.
-LaTeX Font Info:    Trying to load font information for OML+txmi on input line 7.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 8.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 8.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 7.
-LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 7.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 8.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 8.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 7.
-LaTeX Font Info:    Trying to load font information for OMX+txex on input line 7.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 8.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 8.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 7.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 7.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 8.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 8.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
  (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count296
@@ -700,7 +700,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 7.
+Package hyperref Info: Link coloring ON on input line 8.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -710,97 +710,97 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count302
 )
-LaTeX Info: Redefining \ref on input line 7.
-LaTeX Info: Redefining \pageref on input line 7.
-LaTeX Info: Redefining \nameref on input line 7.
+LaTeX Info: Redefining \ref on input line 8.
+LaTeX Info: Redefining \pageref on input line 8.
+LaTeX Info: Redefining \nameref on input line 8.
  (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.out) (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.out)
 \@outlinefile=\write4
 \openout4 = `analysisnote.out'.
 
-Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 7.
-Class revtex4-1 Info: Overriding lineo.sty, restoring output routine, on input line 7.
-Class revtex4-1 Info: Line numbering not turned on yet on input line 7.
+Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 8.
+Class revtex4-1 Info: Overriding lineo.sty, restoring output routine, on input line 8.
+Class revtex4-1 Info: Line numbering not turned on yet on input line 8.
 \openout3 = `analysisnoteNotes.bib'.
 
-Class revtex4-1 Info: Overriding \@LN@LLerror on input line 7.
-
+Class revtex4-1 Info: Overriding \@LN@LLerror on input line 8.
+ (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/data/abstract.tex
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 4.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 4.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 4.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 4.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 4.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)) [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 22.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24.88> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 22.
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 22.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/utxsya.fd
-File: utxsya.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 22.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/utxsyb.fd
-File: utxsyb.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 22.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/utxmia.fd
-File: utxmia.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 22.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/utxsyc.fd
-File: utxsyc.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 22.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 23.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 22.
+(hyperref)                removing `\\' on input line 23.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 22.
+(hyperref)                removing `math shift' on input line 23.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 22.
+(hyperref)                removing `\@ifnextchar' on input line 23.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 22.
+(hyperref)                removing `subscript' on input line 23.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 22.
+(hyperref)                removing `math shift' on input line 23.
 
-[1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2]
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 25.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 26.
  (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.toc)
 \tf@toc=\write5
 \openout5 = `analysisnote.toc'.
 
- (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/data/chapter01.tex [2]
-<figures/chapter01/FXTmode.png, id=68, 345.9324pt x 188.3838pt>
+ (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/data/chapter01.tex [3]
+<figures/chapter01/FXTmode.png, id=88, 345.9324pt x 188.3838pt>
 File: figures/chapter01/FXTmode.png Graphic file (type png)
 <use figures/chapter01/FXTmode.png>
 Package pdftex.def Info: figures/chapter01/FXTmode.png  used on input line 20.
 (pdftex.def)             Requested size: 397.80286pt x 216.64542pt.
- [3 </Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/figures/chapter01/FXTmode.png>]) (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/data/chapter02.tex) [4] (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.bbl) (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.aux)
+ [4 </Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/figures/chapter01/FXTmode.png>]) (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/data/chapter02.tex) [5] [6] (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/data/appendix.tex) (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.bbl) [7] (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.aux)
 Package rerunfilecheck Info: File `analysisnote.out' has not changed.
-(rerunfilecheck)             Checksum: 12F23DAC265900DFF34F6F9414AC3F80;2160.
+(rerunfilecheck)             Checksum: 2A19EE8F094F36715E1E1E19ABE149FD;2476.
  ) 
 Here is how much of TeX's memory you used:
- 12131 strings out of 478994
- 173002 string characters out of 5858185
- 470080 words of memory out of 5000000
- 29373 multiletter control sequences out of 15000+600000
- 445514 words of font info for 131 fonts, out of 8000000 for 9000
+ 12169 strings out of 478994
+ 173762 string characters out of 5858185
+ 474226 words of memory out of 5000000
+ 29395 multiletter control sequences out of 15000+600000
+ 447068 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,11n,77p,569b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.pdf (4 pages, 205854 bytes).
+ 76i,16n,77p,570b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.pdf (7 pages, 215979 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 110 words of extra memory for PDF output out of 10000 (max. 10000000)
 

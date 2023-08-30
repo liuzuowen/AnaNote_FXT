@@ -1,10 +1,11 @@
 %!TEX TS-program = pdflatex
 \documentclass[preprint,showpacs,aps,prc,superscriptaddress]{revtex4-1}
 
+
 % 论文基本配置，加载宏包等全局配置
 \input{setup}
 
-\begin{document}
+\begin{document}d
 %\preprint{}
 
 \title{
@@ -15,7 +16,7 @@
 %\date{\today \ \ \ Version 1.0}
 
 % abstract
-%\input{data/abstract}
+\input{data/abstract}
 
 \newpage
 
@@ -38,14 +39,11 @@
 \clearpage
 
 % 其他部分
-% 参考文献
-%\bibliography{ref/refs}  % 参考文献使用 BibTeX 编译
-%\printbibliography       % 参考文献使用 BibLaTeX 编译
-
-
 % 附录
-%\appendix
-%\input{data/appendix}
+\appendix
+\input{data/appendix}
 
+% 参考文献
+\bibliography{ref/refs}
 
 \end{document}

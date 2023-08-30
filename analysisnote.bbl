@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{0}%
+\begin{thebibliography}{2}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,4 +50,21 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
+\bibitem [{\citenamefont {Abdallah}\ \emph {et~al.}(2021)\citenamefont
+  {Abdallah} \emph {et~al.}}]{PhysRevC.103.034908}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~S.}\ \bibnamefont
+  {Abdallah}} \emph {et~al.} (\bibinfo {collaboration} {STAR Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevC.103.034908} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume} {103}},\ \bibinfo
+  {pages} {034908} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kharzeev}\ and\ \citenamefont
+  {Nardi}(2001)}]{KHARZEEV2001121}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Kharzeev}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Nardi}},\ }\href {\doibase https://doi.org/10.1016/S0370-2693(01)00457-9}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physics Letters B}\ }\textbf
+  {\bibinfo {volume} {507}},\ \bibinfo {pages} {121} (\bibinfo {year}
+  {2001})}\BibitemShut {NoStop}%
 \end{thebibliography}%
