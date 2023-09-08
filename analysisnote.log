@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.1)  30 AUG 2023 16:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.1)  5 SEP 2023 16:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -779,28 +779,59 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10.95> not available
 \openout5 = `analysisnote.toc'.
 
  (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/data/chapter01.tex [3]
-<figures/chapter01/FXTmode.png, id=88, 345.9324pt x 188.3838pt>
+<figures/chapter01/FXTmode.png, id=103, 345.9324pt x 188.3838pt>
 File: figures/chapter01/FXTmode.png Graphic file (type png)
 <use figures/chapter01/FXTmode.png>
 Package pdftex.def Info: figures/chapter01/FXTmode.png  used on input line 20.
-(pdftex.def)             Requested size: 397.80286pt x 216.64542pt.
- [4 </Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/figures/chapter01/FXTmode.png>]) (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/data/chapter02.tex) [5] [6] (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/data/appendix.tex) (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.bbl) [7] (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.aux)
+(pdftex.def)             Requested size: 210.59857pt x 114.68686pt.
+ [4 </Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/figures/chapter01/FXTmode.png>]) (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/data/chapter02.tex [5]
+<figures/chapter02/EPDgroup.png, id=130, 582.175pt x 449.68pt>
+File: figures/chapter02/EPDgroup.png Graphic file (type png)
+<use figures/chapter02/EPDgroup.png>
+Package pdftex.def Info: figures/chapter02/EPDgroup.png  used on input line 24.
+(pdftex.def)             Requested size: 210.59857pt x 162.66689pt.
+ [6 </Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/figures/chapter02/EPDgroup.png>] [7]
+<figures/chapter02/EP_3GeV.png, id=160, 406.51875pt x 292.09125pt>
+File: figures/chapter02/EP_3GeV.png Graphic file (type png)
+<use figures/chapter02/EP_3GeV.png>
+Package pdftex.def Info: figures/chapter02/EP_3GeV.png  used on input line 95.
+(pdftex.def)             Requested size: 210.59857pt x 151.31783pt.
+File: figures/chapter02/EP_3GeV.png Graphic file (type png)
+<use figures/chapter02/EP_3GeV.png>
+Package pdftex.def Info: figures/chapter02/EP_3GeV.png  used on input line 96.
+(pdftex.def)             Requested size: 210.59857pt x 151.31783pt.
+<figures/chapter02/EP_3p5GeV.png, id=161, 390.45876pt x 274.02374pt>
+File: figures/chapter02/EP_3p5GeV.png Graphic file (type png)
+<use figures/chapter02/EP_3p5GeV.png>
+Package pdftex.def Info: figures/chapter02/EP_3p5GeV.png  used on input line 97.
+(pdftex.def)             Requested size: 210.59857pt x 147.79918pt.
+File: figures/chapter02/EP_3p5GeV.png Graphic file (type png)
+<use figures/chapter02/EP_3p5GeV.png>
+Package pdftex.def Info: figures/chapter02/EP_3p5GeV.png  used on input line 98.
+(pdftex.def)             Requested size: 210.59857pt x 147.79918pt.
+ [8 </Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/figures/chapter02/EP_3GeV.png> </Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/figures/chapter02/EP_3p5GeV.png>]
+<figures/chapter02/EPD_TPC_groups.png, id=177, 698.61pt x 211.79124pt>
+File: figures/chapter02/EPD_TPC_groups.png Graphic file (type png)
+<use figures/chapter02/EPD_TPC_groups.png>
+Package pdftex.def Info: figures/chapter02/EPD_TPC_groups.png  used on input line 131.
+(pdftex.def)             Requested size: 304.19714pt x 92.22215pt.
+) [9 </Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/figures/chapter02/EPD_TPC_groups.png>] (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/data/appendix.tex) (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.bbl) [10] (/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.aux)
 Package rerunfilecheck Info: File `analysisnote.out' has not changed.
-(rerunfilecheck)             Checksum: 2A19EE8F094F36715E1E1E19ABE149FD;2476.
+(rerunfilecheck)             Checksum: 54B8724A88C1F8B9783FE4C9456344E1;3067.
  ) 
 Here is how much of TeX's memory you used:
- 12169 strings out of 478994
- 173762 string characters out of 5858185
- 474226 words of memory out of 5000000
- 29395 multiletter control sequences out of 15000+600000
+ 12251 strings out of 478994
+ 175505 string characters out of 5858185
+ 482917 words of memory out of 5000000
+ 29449 multiletter control sequences out of 15000+600000
  447068 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,16n,77p,570b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.pdf (7 pages, 215979 bytes).
+Output written on /Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.pdf (10 pages, 1896728 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
- 110 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 244 PDF objects out of 1000 (max. 8388607)
+ 210 compressed objects within 3 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 154 words of extra memory for PDF output out of 10000 (max. 10000000)
 

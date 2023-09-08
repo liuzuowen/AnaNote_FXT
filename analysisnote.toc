@@ -9,8 +9,11 @@
 \contentsline {subsection}{\numberline {1.3}Badrun rejection and centrality determination}{5}{section*.7}%
 \contentsline {section}{\numberline {2}Analysis method}{6}{section*.8}%
 \contentsline {subsection}{\numberline {2.1}Event plane reconstruction}{6}{section*.9}%
-\contentsline {subsection}{\numberline {2.2}Particle identification}{6}{section*.10}%
-\contentsline {subsection}{\numberline {2.3}Efficiency correction}{6}{section*.11}%
+\contentsline {subsubsection}{\numberline {2.1.1}Recentering correction}{7}{section*.10}%
+\contentsline {subsubsection}{\numberline {2.1.2}Shifting correction}{7}{section*.11}%
+\contentsline {subsubsection}{\numberline {2.1.3}Event plane resolution}{8}{section*.12}%
+\contentsline {subsection}{\numberline {2.2}Particle identification}{9}{section*.13}%
+\contentsline {subsection}{\numberline {2.3}Efficiency correction}{9}{section*.14}%
 \appendix 
-\contentsline {section}{\numberline {A}appendix}{7}{section*.12}%
-\contentsline {section}{\numberline {}References}{7}{section*.13}%
+\contentsline {section}{\numberline {A}appendix}{10}{section*.15}%
+\contentsline {section}{\numberline {}References}{10}{section*.16}%
