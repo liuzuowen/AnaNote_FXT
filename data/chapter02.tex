@@ -2,7 +2,7 @@
 
 \section{Analysis method}
 In this section, event plane reconstruction would be described firstly.
-Second part is identification for measured particles, including identified particles($pi+$ and $pi-$), 
+Second part is identification for measured particles, including identified particles($\pi^+$ and $\pi^-$), 
 and weak decay particles($K_0^S$ and $\Lambda$). Last one is efficiency correction, 
 including TPC tracking efficiency, TOF matching efficiency and particle reconstruction efficiency.
 
@@ -120,12 +120,13 @@ the event plane resolution in each of them.~\cite{poskanzer1998methods} It could
 \end{equation}
 Where $\Psi_m^a$ is the target event plane angle,  $\Psi_m^b$ and  $\Psi_m^c$ are the reference event plane angle.
 
-In this analysis, we foucus on directed flow($v_1$) and elliptic flow($v_2$) measurement, they are both bashed on 
+In this analysis, we foucus on directed flow($v_1$) measurement, they are both bashed on 
 first order event plane. so we substitue $m=1$ to the equation~\ref{eq:threeSub_res}. According to the STAR published 3 GeV paper~\cite{Abdallah_2022},
 One can get the largest resolution if chosen the forward eta window(EPD group A and B). We follow the method and take EPD group A and B 
 as our target event plane. Other windows from EPD and TPC would be chosen as reference windows. They are divided as shown by Fig.~\ref{fig:EPD_TPC_groups}
-This figure is specical for 3.0 GeV. We note here eta could reach 2.4 for 3.2, 3.5 and 3.9 GeV data, since inner TPC was upgarded at these three energies, 
-and eta gap in the TPC is $[-1.15, -1.25]$.
+This figure is specific for 3.0 GeV. We note here eta could reach 2.4 for 3.2, 3.5 and 3.9 GeV data, since inner TPC was upgarded at these three energies.
+Two eta gaps were added in this analysis to reduce the non-flow effect. One eta gap is in the EPD group C which eta coverage is $[-3.3, -3.0]$(removed two EPD rings in C, here C' denotes group C after removing two rings), 
+the other one is in the TPC which eta coverage is $[-1.1, -1.0]$ for 3GeV, while $[-1.15, -1.25]$ for 3.2, 3.5, and 3.9 GeV due to the wider eta coverage brought by iTPC. 
 \begin{figure}[hbt!]
 \centering
 \includegraphics[width=0.65\linewidth]{figures/chapter02/EPD_TPC_groups.png}
@@ -133,14 +134,189 @@ and eta gap in the TPC is $[-1.15, -1.25]$.
 \label{fig:EPD_TPC_groups}
 \end{figure}
 
-%\begin{equation}
-%v_n=\frac{v_n^{\mathrm{obs}}}{R_n}
-%\label{eq:vn}
-%\end{equation}
 
+
+The first order event plane resolution of EPD gourp AB at 3.0, 3.2, 3.5, and 3.9 GeV was show by Fig.~\ref{fig:1st_resolution}.
+EPD group AB was chosen as the target event plane, and another two reference event plane were needed according to three sub-event plane method.
+In this analysis, the maximum $R_1$(EPD-AB vs. EPD-C' and TPC-B) was chosen as default resolution to measure directed flow, which could be expressed as:
+\begin{equation}
+v_n=\frac{v_n^{\mathrm{obs}}}{R_n}
+\label{eq:vn}
+\end{equation}
+The other two set of resolution were used to estimate the systematic uncertainty brought by resolution.
+
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.45\linewidth]{figures/chapter02/res_3gev.png}
+\includegraphics[width=0.45\linewidth]{figures/chapter02/res_3gev.png}
+\includegraphics[width=0.45\linewidth]{figures/chapter02/res_3p5gev.png}
+\includegraphics[width=0.45\linewidth]{figures/chapter02/res_3p5gev.png}
+\caption{The first order event plane resolution of EPD gourp AB at 3.0, 3.2, 3.5, and 3.9 GeV.}
+\label{fig:1st_resolution}
+\end{figure}
 
 \subsection{Particle identification}
+
+\subsubsection{$\pi$, K, p identification}
+
+Time Projection Chamber(TPC)\cite{ANDERSON2003659} and Time of Flight(TOF)\cite{LLOPE2012S110} were used to identify pion, kaon, and proton. 
+The identification are based on particle ionization energy loss(dE/dx) in TPC and time of particle flight measured by TOF.
+The theoretic particle ionization energy loss could be described by Bichsel function, which are shown by dashed line in left panel of Fig.~\ref{fig:dedx_m2}.
+The dE/dx value would be transfored to $n\sigma_{particle}$ to facilitate applying the PID cut. The $n\sigma_{particle}$ can be expressed as:
+\begin{equation}
+n \sigma_{\text {particle }} \propto \ln \left[\left\langle\frac{d E}{d X}\right\rangle_{\text {particle }} /\left\langle\frac{d E}{d X}\right\rangle_{\text {Bichsel }}\right]
+\label{eq:nsigma}
+\end{equation}
+
+In this analysis, we take the $n\sigma_{particle}$ shift into account which is due to detector issue and data calibration issue.
+For example, the $n\sigma_{proton}$ distribution in momentum windows are shown by Fig.~\ref{fig:nsigmaproton_3p5}.
+The background and signal peak were fitted with Gaussian function, and proton purity could reach more than 95\% up to momentum at 1.2 GeV/c.
+At higer momentum region($p > 1.2 GeV/c$), the signal and background peak are merged, it's unable to assure proton purity greater than 95\% with TPC along.
+In that case, TOF was involved to help identify particle at high momentum.
+
+The right panel of Fig.~\ref{fig:dedx_m2} show rigidity dependence of mass square($m^2$) distribution measured by TOF, the $m^2$ could be calculated by the formula: 
+$m^2 = p^2(1/\beta^2 - 1)$, where velocity $\beta = L/cT$. At hign momentum, we used $m^2$ distribution instead to study the particle purity. 
+The $m^2$ distribution is after $n\sigma_{particle}$ cut from TPC. For example, Fig.~\ref{fig:m2_p_3p5} show proton $m^2$ distribution in momentum windows
+after $|n\sigma_{proton} -shift| < 3$ cut. And Student-t function was applied to fit the signal peak and the background peak.
+By that way, proton identification could reach p = 4.2 GeV/c, and the purity is greater than 95\%. Purity of pion and kaon is greater than 95\% and 90\%, respectively.  
+The detailed PID cuts are shown by the TABLE~\ref{tab:pid_piKp} in the appendix for 3, 3.2, 3.5, and 3.9 GeV.
+
+The accaptance of $\pi, K, p$ at 3.5 GeV are shown by Fig.~\ref{fig:3p5_piKp_acceptance}, the black box show the measured arear, where the rapdity cut is $-1<y_{CM}<0$, 
+and $p_T$ cut are $0.2<p_T<1.6, 0.4<p_T<2.0$ for $\pi$/K, proton, respectively. For other energies, 3(Fig.~\ref{fig:3gev_piKp_acceptance}), 3.2, and 3.9 GeV, the acceptance plots could be found in the appendix. 
+
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.35\linewidth]{figures/chapter02/3p5GeV_dEdx_P23id.pdf}
+\includegraphics[width=0.35\linewidth]{figures/chapter02/m2_3p5gev.png}
+\caption{Left: rigidity dependence of particle ionization energy loss in TPC, Right: rigidity dependence of particle mass square distribution measured by TOF in Au + Au collisions at $\sqrt{s_{NN}}$ = 3.5 GeV.}
+\label{fig:dedx_m2}
+\end{figure}
+
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.55\linewidth]{figures/chapter02/nsigmaproton_3p5gev.png}
+\caption{$n\sigma_{proton}$ distribution in momentum windows from TPC at $\sqrt{s_{NN}}$ = 3.5 GeV.}
+\label{fig:nsigmaproton_3p5}
+\end{figure}
+
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.55\linewidth]{figures/chapter02/m2_p_3p5gev.png}
+\caption{$m^2$ distribution in momentum windows from TOF at $\sqrt{s_{NN}}$ = 3.5 GeV.}
+\label{fig:m2_p_3p5}
+\end{figure}
+
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.55\linewidth]{figures/chapter02/3p5_piKp_acceptance.pdf}
+\caption{$\pi, K, p$ density distribution as function of rapidity and transverse momentum at $\sqrt{s_{NN}}$ = 3.5 GeV.}
+\label{fig:3p5_piKp_acceptance}
+\end{figure}
+
+
+\subsubsection{$K^{0}_{S}, \Lambda$ identification}
+
+For the weak decay particles $K^{0}_{S}~and~\Lambda$, they are reconstructed by Kalman Filter(KF) particle package\cite{doi:10.1142/S0217751X20430034},
+where the covariance matrix of reconstructed tracks are considered to construct a set of topological variable.
+The track and topological cuts for daughters are listed in the TABLE.~\ref{tab:K0s_lam_cut}.
+Note that only $\pi^{+}$ was required to have $m^2$ cut to avoid contamination from proton.
+
+\begin{table}
+    \centering
+    \begin{tabular}{|c|c|c|l|l|l|} \hline 
+         Daughters' track cuts&  $nHitsFit > 15$ &\makecell{$|n\sigma_{\pi,p}-shift| < 3$, \\$\pi^{+}: -0.06 < m^2 < 0.1$}&$0.04 < Error(dE/dx ) < 0.12$ &$nHitsdEdx > 5$\\ \hline 
+         Topological cuts&  $\chi^2_{prim, \pi}<10$&   $\chi^2_{prim, p}<10$& &\\ \hline
+    \end{tabular}
+    \caption{Daughters' track cuts and topological cuts applied for $K^{0}_{S}, \Lambda$ in KF particle}
+    \label{tab:K0s_lam_cut}
+\end{table}
+The acceptance of $K^{0}_{S}~and~\Lambda$ are shown by Fig.~\ref{fig:3p5_K0s_lambda_acceptance}. 
+The black box show the kinematic region chosen in this analysis, where the rapdity cut is $-1<y_{CM}<0$, 
+and $p_T$ cut are $0.2<p_T<1.6, 0.4<p_T<2.0$ for $K^{0}_{S} and \Lambda$, respectively.
+The accaptance plots could be found in the appendix for other energies(3GeV(Fig.~\ref{fig:3gev_K0s_lambda_acceptance}), 3.2 GeV, 3.9 GeV).
+
+
+
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.55\linewidth]{figures/chapter02/3p5gev_K0s_acceptance.pdf}
+\includegraphics[width=0.55\linewidth]{figures/chapter02/3p5gev_lambda_acceptance.pdf}
+\caption{$K^{0}_{S}~and~\Lambda$(and their daughters) density distribution as function of rapidity and transverse momentum at $\sqrt{s_{NN}}$ = 3.5 GeV.}
+\label{fig:3p5_K0s_lambda_acceptance}
+\end{figure}
 
 
 
 \subsection{Efficiency correction}
+
+
+The efficiency correction would help to restore the particle which was not tracked by the detector.
+In this analysis, TPC tracking efficiency and TOF matching efficiency are taken into account for $\pi, K, and p.$
+For the weak decay particles($K^{0}_{S}~and~\Lambda$) which are reconstructed by KF particle package, 
+the reconstruction efficiency was applied instead. 
+
+The GEANT model\cite{AGOSTINELLI2003250} was used to simulate particle going through the detector based on Monte Carlo method, 
+which could estimate the particle number loss due to the detector accaptance and the efficiency of reconstructing particle track.
+For $K^0_S~and~\Lambda$, the GEANT model can also estimate the particle reconstruction efficiency.
+
+The TPC tracking efficiency as function of rapidity and transverse momentum could be obtained by the formula~\ref{eq:tpc_eff}
+\begin{equation}
+    \epsilon_{TPC}\left(p_T, y\right)=\frac{\text {Number of Real Tracks }}{\text { Number of MC Tracks }}
+\label{eq:tpc_eff}
+\end{equation}
+The embedding data used in this analysis could be found at the RCF: \\
+\verb|/star/u/xgn1992/Strangeness/Phi/3p85GeV_fixTarget/SL19e/Simulation/Embedding| for 3 GeV,
+\verb|/star/data105/embedding/production_4p59_fixedTarget_2019| for 3.2 GeV.
+
+The TPC tracking efficiency for $\pi, K, p$ are shown by Fig.~\ref{fig:3p2_piKp_TPCeff} at 3.2 GeV. 
+The black box show the measured rapdity and transverse momentum interval, where the rapdity cut is $-1<y_{CM}<0$, 
+and $p_T$ cut are $0.2<p_T<1.6, 0.4<p_T<2.0$ for $\pi/K ~and~ p$, respectively. 
+For other energies, the TPC tracking efficiency can be found in the appendix.(3GeV(Fig~\ref{fig:3gev_piKp_TPCeff}), 3.5GeV, 3.9GeV)
+
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.65\linewidth]{figures/chapter02/3p2gev_TPC_eff.pdf}
+\caption{TPC tracking efficiency of $\pi, K, p$ as function of rapidity y and transverse momentum $p_T$ at $\sqrt{s_{NN}}$ = 3.2 GeV.}
+\label{fig:3p2_piKp_TPCeff}
+\end{figure}
+
+The TOF can improve the particle identification capability at high momentum region, 
+which is necessary for kaon identification, discussed in the PID section.
+While some particles which have tracks in TPC can not travel into TOF, and are not recorded by TOF.
+The TOF matching efficiency could compensate to the un-recorded part, 
+which can be expressed by the formula~\ref{eq:tof_eff}. Note that TPC tracks are required within $|n\sigma_{particle}-shift|<3$,
+and TOF tracks just are required the TOF match flag is greater than zero.
+\begin{equation}
+    \epsilon_{TPC}\left(p_T, y\right)=\frac{\text {Number of TOF Tracks }}{\text { Number of TPC Tracks }}
+\label{eq:tof_eff}
+\end{equation}
+The TOF matching efficiency for $\pi, K, p$ are shown by Fig.~\ref{fig:3p2_piKp_TOFeff} at 3.2 GeV. 
+The black box show the measured rapdity and transverse momentum interval, where the rapdity cut is $-1<y_{CM}<0$, 
+and $p_T$ cut are $0.2<p_T<1.6, 0.4<p_T<2.0$ for $\pi/K ~and~ p$, respectively. 
+For other energies, the TOF matching efficiency can be found in the appendix.(3GeV(Fig~\ref{fig:3gev_piKp_TOFeff}), 3.5GeV, 3.9GeV)
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.65\linewidth]{figures/chapter02/3p2gev_TOF_eff.pdf}
+\caption{TOF matching efficiency of $\pi, K, p$ as function of rapidity y and transverse momentum $p_T$ at $\sqrt{s_{NN}}$ = 3.2 GeV.}
+\label{fig:3p2_piKp_TOFeff}
+\end{figure}
+
+The reconstruction efficiency for $K^{0}_{S}~and~ \Lambda$ can be obtained by the formula~\ref{eq:recon_eff},
+which are shown by Fig.~\ref{fig:3p2_K0sLam_eff} at 3.2 GeV. The black box show the measured rapdity and transverse momentum interval, 
+where the rapdity cut is $-1<y_{CM}<0$, and $p_T$ cut are $0.2<p_T<1.6, 0.4<p_T<2.0$ for $K^{0}_{S}~and~ \Lambda$, respectively. 
+Note that the track and topological cuts applied are identical with identification cuts which is shown by the TABLE.~\ref{tab:K0s_lam_cut}.
+For other energies, the TPC tracking efficiency can be found in the appendix.(3GeV(Fig~\ref{fig:3gev_K0sLam_eff}), 3.5GeV, 3.9GeV)
+\begin{equation}
+    \epsilon\left(p_T, y\right)=\frac{\text {Number of Reconstructed Tracks }}{\text { Number of MC Tracks }}
+\label{eq:recon_eff}
+\end{equation}
+
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.45\linewidth]{figures/chapter02/3p2_K0s_eff.pdf}
+\includegraphics[width=0.45\linewidth]{figures/chapter02/3p2_lambda_eff.pdf}
+\caption{Reconstruction efficiency of $K^{0}_{S}(Left), \Lambda(Right)$ as function of rapidity y and transverse momentum $p_T$ at $\sqrt{s_{NN}}$ = 3.2 GeV.}
+\label{fig:3p2_K0sLam_eff}
+\end{figure}
+
+

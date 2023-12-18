@@ -5,7 +5,7 @@
 % 论文基本配置，加载宏包等全局配置
 \input{setup}
 
-\begin{document}d
+\begin{document}
 %\preprint{}
 
 \title{
@@ -29,21 +29,34 @@
 %\let\toc@post\relax
 %\makeatother
 
+\clearpage
+
 \newpage
 % 正文部分
 %\linenumbers
 \input{data/chapter01}
 \input{data/chapter02}
-%\input{chapterZ/chapterZ}%Xi
+\input{data/chapter03}
+\input{data/chapter04}
 
 \clearpage
+
+\newpage
 
 % 其他部分
 % 附录
 \appendix
 \input{data/appendix}
 
+\clearpage
+
+
+\newpage
+
 % 参考文献
 \bibliography{ref/refs}
+
+\clearpage
+
 
 \end{document}

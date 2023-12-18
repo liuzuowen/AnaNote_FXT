@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2021)
+This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: analysisnote.aux
 The style file: apsrev4-1.bst
@@ -23,45 +23,45 @@ Control: production of article title (-1) disabled
 Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
-You've used 9 entries,
+You've used 14 entries,
             5847 wiz_defined-function locations,
-            1667 strings with 17015 characters,
-and the built_in function-call counts, 7223 in all, are:
-= -- 458
-> -- 155
-< -- 68
-+ -- 55
-- -- 51
-* -- 1096
-:= -- 712
-add.period$ -- 9
-call.type$ -- 9
-change.case$ -- 30
-chr.to.int$ -- 17
-cite$ -- 9
-duplicate$ -- 709
-empty$ -- 482
-format.name$ -- 92
-if$ -- 1361
+            1711 strings with 18255 characters,
+and the built_in function-call counts, 11479 in all, are:
+= -- 778
+> -- 236
+< -- 92
++ -- 85
+- -- 69
+* -- 1718
+:= -- 1163
+add.period$ -- 15
+call.type$ -- 14
+change.case$ -- 53
+chr.to.int$ -- 22
+cite$ -- 14
+duplicate$ -- 1110
+empty$ -- 803
+format.name$ -- 141
+if$ -- 2205
 int.to.chr$ -- 1
-int.to.str$ -- 16
-missing$ -- 97
-newline$ -- 73
-num.names$ -- 21
-pop$ -- 293
+int.to.str$ -- 21
+missing$ -- 148
+newline$ -- 88
+num.names$ -- 36
+pop$ -- 453
 preamble$ -- 1
-purify$ -- 35
+purify$ -- 60
 quote$ -- 0
-skip$ -- 272
+skip$ -- 440
 stack$ -- 0
-substring$ -- 191
-swap$ -- 645
-text.length$ -- 13
+substring$ -- 318
+swap$ -- 1003
+text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 105
+type$ -- 169
 warning$ -- 1
-while$ -- 28
+while$ -- 42
 width$ -- 0
-write$ -- 108
+write$ -- 150
 (There was 1 warning)
