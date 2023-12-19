@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.13)  16 DEC 2023 14:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.13)  19 DEC 2023 16:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -754,7 +754,37 @@ File: utxsyc.fd 2000/12/15 v3.1
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 4.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-))
+)
+Underfull \hbox (badness 1527) in paragraph at lines 3--11
+\OT1/txr/m/n/10.95 In this note, we present the mea-sure-ment of anti-flow of kaons in Au+Au col-li-sions at $[]$
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 3--11
+\OT1/txr/m/n/10.95 = 3.0, 3.2, 3.5, 3.9 GeV with the STAR ex-per-i-ment un-der its fixed tar-get con-fig-u-ra-tion at
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 3--11
+\OT1/txr/m/n/10.95 RHIC. Di-rected flow of $\OML/txmi/m/it/10.95 ^^Y[]$\OT1/txr/m/n/10.95 , $\OML/txmi/m/it/10.95 K[]$\OT1/txr/m/n/10.95 , $\OML/txmi/m/it/10.95 K[]$\OT1/txr/m/n/10.95 , p, and $^^C$ are pre-sented in dif-fer-ent cen-tral-ity, trans-
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 3--11
+\OT1/txr/m/n/10.95 verse mo-men-tum and ra-pid-ity in-ter-vals. $\OML/txmi/m/it/10.95 ^^Y[]$\OT1/txr/m/n/10.95 , $\OML/txmi/m/it/10.95 K[]$\OT1/txr/m/n/10.95 , and $\OML/txmi/m/it/10.95 K[]$ \OT1/txr/m/n/10.95 show anti-flow at low $\OML/txmi/m/it/10.95 p[]$ \OT1/txr/m/n/10.95 ($\OML/txmi/m/it/10.95 p[] <$
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 3--11
+\OT1/txr/m/n/10.95 0.6 GeV/c) at $[]$ = 3.0, 3.2, 3.5, 3.9 GeV. And the re-sult have been com-pared with JAM
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 3--11
+\OT1/txr/m/n/10.95 model. Anti-flow of kaons at low $\OML/txmi/m/it/10.95 p[]$ \OT1/txr/m/n/10.95 could be ex-plained by shad-ow-ing ef-fect from spec-ta-tor.
+ []
+
+)
 
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
@@ -1392,7 +1422,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  80i,16n,79p,698b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on analysisnote.pdf (48 pages, 10790352 bytes).
+Output written on analysisnote.pdf (48 pages, 10790463 bytes).
 PDF statistics:
  2612 PDF objects out of 2984 (max. 8388607)
  1365 compressed objects within 14 object streams
