@@ -2,31 +2,31 @@
 
 \section{Analysis setup}
 
-This section describes the setup of analysis. 
+This section shows the setup of analysis. 
 The first part of this section introduces STAR Fixed Target(FXT) mode. 
 Second one is dataset and event selection used in the analysis. 
-Third, badrun rejection and centrality determination are discussed.
+At last, bad-run rejection and centrality determination are discussed.
 
 %-------------------------------
 \subsection{Introduction of FXT}
 
-There are two modes at RHIC-STAR, Fixed Target mode and Collider mode. 
-FXT mode of STAR experiment covers center of mass energy($\snn$) from 3 to 13.7 GeV, which extends the measurement to lower energy intervals.
-In this way, FXT mode could reach higher baryon density region(up to 750 MeV). 
-To achieve this goal, One piece of gold foil would be fixed at the end of Time Projection Chamber(TPC) as target.\cite{PhysRevC.103.034908}
-And the accelerated gold beam from west would collide with it. Fig.~\ref{fig:FXTmode} shows the schematic plot for fixed target mode.
+There are two modes at RHIC-STAR, Fixed Target (FXT) mode and Collider mode. 
+FXT mode of STAR covers center of mass energy ($\snn$) from 3 to 13.7 GeV, which extends the flow measurement to lower collision energy.
+In this way, FXT mode could reach higher baryon density region ($\mu_B$ = 750 MeV at most). 
+To achieve this goal, One piece of gold foil is fixed at the end of Time Projection Chamber (TPC)\cite{PhysRevC.103.034908} as target.
+And the projectile which is accelerated gold beam would collide with it. Fig.~\ref{fig:FXTmode} shows the schematic plot for fixed target mode.
 \begin{figure}[hbt!]
 \centering
 \includegraphics[width=0.45\linewidth]{figures/chapter01/FXTmode.png}
-\caption{The setup of Fixed Target mode at STAR.}
+\caption{The schematic plot of Fixed Target mode at STAR.}
 \label{fig:FXTmode}
 \end{figure}
 
-The laboratory system should be transferred to the center of mass system, 
+The laboratory system should be transferred to the Center of Mass System (CMS), 
 if one want to analysis physical observation conveniently. 
-According to the Lorentz transformation, Rapidity(y) of the final state particle in the Center of Mass System(CMS) could be calculated as equation~\ref{eq:transf_rap}, 
+According to the Lorentz transformation, Rapidity (y) of the final state particle in the Center of Mass System could be calculated as equation~\ref{eq:transf_rap}, 
 where $y_{lab}$ is rapidity of emitted particle in the laboratory frame, $y_{beam}$ is rapidity of gold beam in the CMS.
-And we would discuss flow measurement based in the Center of Mass System.
+And we would discuss flow measurement in the Center of Mass System as follows.
 \begin{equation}
     y_{CMS} = y_{lab} - y_{beam}
 \label{eq:transf_rap}
@@ -35,20 +35,20 @@ And we would discuss flow measurement based in the Center of Mass System.
 %-------------------------------
 \subsection{Dataset and event selection}
 
-In this analysis, four energies($\snn=3, 3.2, 3.5, 3.9 GeV$) from fixed target mode are involved.
-The events from minimum bias trigger are selected. And vertex cut in the X and Y direction applied to exclude the events from beam pipe, 
-vertex cut along the Z direction to ensure that selection events are from collision on the gold foil.
-The detailed trigger and vertex cut are summarized in the TABLE.~\ref{tab:dataset}
+In this analysis, four collision energies ($\snn=3, 3.2, 3.5, 3.9$ GeV) from fixed target mode are involved.
+The events from minimum bias trigger are selected. Vertex cut in the X and Y direction is applied to exclude the events colliding with beam pipe, 
+and vertex cut along the Z direction ensure that selection events are from collision on the gold foil.
+The detailed triggers and vertex cuts are summarized in the TABLE.~\ref{tab:dataset}.
 \begin{table}
-\caption{Dataset and event cuts for $\snn=3, 3.2, 3.5, 3.9 GeV$.}
+\caption{Dataset and event cuts for $\snn=3, 3.2, 3.5, 3.9$ GeV.}
 \label{tab:dataset}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
 $\snn$(GeV) & production tag & library tag & trigger ID & Vz(cm)     & Vr (cm) \\ \hline
 3.0         & P19ic          & SL20d       & 620052     & [198, 202] & 2       \\ \hline
-3.2         & ?          & ?       & ?     & [198, 202] & 2       \\ \hline
-3.5         & P21id          & SL21d       & 720000     & [198, 202] & 2       \\ \hline
-3.9         & ?          & ?       & ?     & [198, 202] & 2       \\ \hline
+3.2         & P23id          & SL23d       & 680001     & [198, 202] & 2       \\ \hline
+3.5         & P23ie          & SL23e       & 720000     & [198, 202] & 2       \\ \hline
+3.9         & P23ie          & SL23e       & 730000     & [198, 202] & 2       \\ \hline
 \end{tabular}
 \end{table}
 
@@ -56,23 +56,38 @@ $\snn$(GeV) & production tag & library tag & trigger ID & Vz(cm)     & Vr (cm) \
 %-------------------------------
 \subsection{Badrun rejection and centrality determination}
 
-Data production at STAR is run-by-run type, and the data is tagged with different run number.
-Run-by-run QA is necessary to reject the bad runs, which may caused by the broken detector et al.
-This job was finished by STAR QA group, and the badrun list used in this analysis could be found at the
+Data production at STAR is run-by-run type, and the data is tagged with different run numbers.
+Run-by-run QA is necessary to reject the bad runs, which may caused by the broken detector etc.
+This job was finished by STAR QA group, and the bad-run list used in this analysis could be found at the
 \href{https://drupal.star.bnl.gov/STAR/pwg/common/bes-ii-run-qa/FXT-datasets}{summary page} from QA group.
 
 Moreover, the centrality determination work is vital in Heavy Ion Collision.
-Glauber Monte Carlo(MC) simulation\cite{KHARZEEV2001121} would describe the reference multiplicity distribution, 
-which is corrected by pile-up rejection and luminosity correction.
-The number of participant particle($N_part$) and the number of collision particles($N_coll$)
+Glauber Monte Carlo (MC) simulation~\cite{KHARZEEV2001121} is applied to describe the reference multiplicity distribution, 
+which is corrected by pile-up rejection and luminosity correction etc.
+The number of participant particle ($N_part$) and the number of collision particles ($N_coll$)
  can be extracted by the formula~\ref{eq:npart_ncoll} in MC model.
  \begin{equation}
     \frac{d N_{c h}}{d \eta}=n_{p p}\left[(1-x) \frac{N_{p a r t}}{2}+x N_{c o l l}\right]
 \label{eq:npart_ncoll}
 \end{equation}
-This work was finished by STAR Centrality group, a class(\href{https://github.com/star-bnl/star-sw/tree/main/StRoot/StRefMultCorr}{StRefMultCorr}) is provided.
+This work is finished by STAR Centrality group, a class(\href{https://github.com/star-bnl/star-sw/tree/main/StRoot/StRefMultCorr}{StRefMultCorr}) is provided.
 One can call the class and get the refMult cut.
 
 
 \subsection{Basic track selection}
 
+The basic track cuts can assure every track used in the analysis meet the minimum experimental requirements.
+For example, the nHitsFit $ > $ 15 cut requires that the track passing TPC have fifteen fitting hits at least,
+which could reduce the track merging effect (two tracks are merged as one.). 
+The total basic track cuts are summarized at TABLE~\ref{tab:trackCut}.
+
+\begin{table}
+    \centering
+    \begin{tabular}{|c|} \hline  
+         Track cuts\\ \hline  
+         nHitsFit $>$ 15\\ \hline
+        DCA $<$ 3 cm\\ \hline
+    \end{tabular}
+    \caption{The basic track cuts}
+    \label{tab:trackCut}
+\end{table}

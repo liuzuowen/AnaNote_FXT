@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.13)  19 DEC 2023 16:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.13)  20 DEC 2023 10:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -754,37 +754,7 @@ File: utxsyc.fd 2000/12/15 v3.1
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 4.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-Underfull \hbox (badness 1527) in paragraph at lines 3--11
-\OT1/txr/m/n/10.95 In this note, we present the mea-sure-ment of anti-flow of kaons in Au+Au col-li-sions at $[]$
- []
-
-
-Underfull \hbox (badness 2884) in paragraph at lines 3--11
-\OT1/txr/m/n/10.95 = 3.0, 3.2, 3.5, 3.9 GeV with the STAR ex-per-i-ment un-der its fixed tar-get con-fig-u-ra-tion at
- []
-
-
-Underfull \hbox (badness 3148) in paragraph at lines 3--11
-\OT1/txr/m/n/10.95 RHIC. Di-rected flow of $\OML/txmi/m/it/10.95 ^^Y[]$\OT1/txr/m/n/10.95 , $\OML/txmi/m/it/10.95 K[]$\OT1/txr/m/n/10.95 , $\OML/txmi/m/it/10.95 K[]$\OT1/txr/m/n/10.95 , p, and $^^C$ are pre-sented in dif-fer-ent cen-tral-ity, trans-
- []
-
-
-Underfull \hbox (badness 2027) in paragraph at lines 3--11
-\OT1/txr/m/n/10.95 verse mo-men-tum and ra-pid-ity in-ter-vals. $\OML/txmi/m/it/10.95 ^^Y[]$\OT1/txr/m/n/10.95 , $\OML/txmi/m/it/10.95 K[]$\OT1/txr/m/n/10.95 , and $\OML/txmi/m/it/10.95 K[]$ \OT1/txr/m/n/10.95 show anti-flow at low $\OML/txmi/m/it/10.95 p[]$ \OT1/txr/m/n/10.95 ($\OML/txmi/m/it/10.95 p[] <$
- []
-
-
-Underfull \hbox (badness 1237) in paragraph at lines 3--11
-\OT1/txr/m/n/10.95 0.6 GeV/c) at $[]$ = 3.0, 3.2, 3.5, 3.9 GeV. And the re-sult have been com-pared with JAM
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 3--11
-\OT1/txr/m/n/10.95 model. Anti-flow of kaons at low $\OML/txmi/m/it/10.95 p[]$ \OT1/txr/m/n/10.95 could be ex-plained by shad-ow-ing ef-fect from spec-ta-tor.
- []
-
-)
+))
 
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
@@ -825,56 +795,60 @@ File: figures/chapter01/FXTmode.png Graphic file (type png)
 <use figures/chapter01/FXTmode.png>
 Package pdftex.def Info: figures/chapter01/FXTmode.png  used on input line 20.
 (pdftex.def)             Requested size: 210.59857pt x 114.68686pt.
- [4 <./figures/chapter01/FXTmode.png>]) (./data/chapter02.tex [5]
-<figures/chapter02/EPDgroup.png, id=206, 582.175pt x 449.68pt>
+ [4 <./figures/chapter01/FXTmode.png>] [5]) (./data/chapter02.tex
+<figures/chapter02/EPDgroup.png, id=207, 582.175pt x 449.68pt>
 File: figures/chapter02/EPDgroup.png Graphic file (type png)
 <use figures/chapter02/EPDgroup.png>
 Package pdftex.def Info: figures/chapter02/EPDgroup.png  used on input line 24.
 (pdftex.def)             Requested size: 210.59857pt x 162.66689pt.
- [6 <./figures/chapter02/EPDgroup.png>] [7]
+ [6] [7 <./figures/chapter02/EPDgroup.png>]
 <figures/chapter02/EP_3GeV.png, id=235, 406.51875pt x 292.09125pt>
 File: figures/chapter02/EP_3GeV.png Graphic file (type png)
 <use figures/chapter02/EP_3GeV.png>
 Package pdftex.def Info: figures/chapter02/EP_3GeV.png  used on input line 95.
 (pdftex.def)             Requested size: 210.59857pt x 151.31783pt.
-File: figures/chapter02/EP_3GeV.png Graphic file (type png)
-<use figures/chapter02/EP_3GeV.png>
-Package pdftex.def Info: figures/chapter02/EP_3GeV.png  used on input line 96.
-(pdftex.def)             Requested size: 210.59857pt x 151.31783pt.
-<figures/chapter02/EP_3p5GeV.png, id=236, 390.45876pt x 274.02374pt>
+<figures/chapter02/EP_3p2GeV.png, id=236, 756.8275pt x 540.0175pt>
+File: figures/chapter02/EP_3p2GeV.png Graphic file (type png)
+<use figures/chapter02/EP_3p2GeV.png>
+Package pdftex.def Info: figures/chapter02/EP_3p2GeV.png  used on input line 96.
+(pdftex.def)             Requested size: 210.59857pt x 150.2645pt.
+<figures/chapter02/EP_3p5GeV.png, id=237, 390.45876pt x 274.02374pt>
 File: figures/chapter02/EP_3p5GeV.png Graphic file (type png)
 <use figures/chapter02/EP_3p5GeV.png>
 Package pdftex.def Info: figures/chapter02/EP_3p5GeV.png  used on input line 97.
 (pdftex.def)             Requested size: 210.59857pt x 147.79918pt.
-File: figures/chapter02/EP_3p5GeV.png Graphic file (type png)
-<use figures/chapter02/EP_3p5GeV.png>
-Package pdftex.def Info: figures/chapter02/EP_3p5GeV.png  used on input line 98.
-(pdftex.def)             Requested size: 210.59857pt x 147.79918pt.
- [8 <./figures/chapter02/EP_3GeV.png> <./figures/chapter02/EP_3p5GeV.png>]
-<figures/chapter02/EPD_TPC_groups.png, id=251, 1234.6125pt x 299.1175pt>
+<figures/chapter02/EP_3p9GeV.png, id=238, 754.82pt x 537.00626pt>
+File: figures/chapter02/EP_3p9GeV.png Graphic file (type png)
+<use figures/chapter02/EP_3p9GeV.png>
+Package pdftex.def Info: figures/chapter02/EP_3p9GeV.png  used on input line 98.
+(pdftex.def)             Requested size: 210.59857pt x 149.82811pt.
+ [8]
+<figures/chapter02/EPD_TPC_groups.png, id=255, 1234.6125pt x 299.1175pt>
 File: figures/chapter02/EPD_TPC_groups.png Graphic file (type png)
 <use figures/chapter02/EPD_TPC_groups.png>
 Package pdftex.def Info: figures/chapter02/EPD_TPC_groups.png  used on input line 132.
 (pdftex.def)             Requested size: 304.19714pt x 73.69748pt.
- [9]
-<figures/chapter02/res_3gev.png, id=264, 900.36375pt x 713.66624pt>
+ [9 <./figures/chapter02/EP_3GeV.png> <./figures/chapter02/EP_3p2GeV.png> <./figures/chapter02/EP_3p5GeV.png> <./figures/chapter02/EP_3p9GeV.png>]
+<figures/chapter02/res_3gev.png, id=269, 900.36375pt x 713.66624pt>
 File: figures/chapter02/res_3gev.png Graphic file (type png)
 <use figures/chapter02/res_3gev.png>
 Package pdftex.def Info: figures/chapter02/res_3gev.png  used on input line 150.
 (pdftex.def)             Requested size: 210.59857pt x 166.92752pt.
-File: figures/chapter02/res_3gev.png Graphic file (type png)
-<use figures/chapter02/res_3gev.png>
-Package pdftex.def Info: figures/chapter02/res_3gev.png  used on input line 151.
-(pdftex.def)             Requested size: 210.59857pt x 166.92752pt.
-<figures/chapter02/res_3p5gev.png, id=265, 703.62875pt x 562.1pt>
+<figures/chapter02/res_3p2gev.png, id=270, 435.6275pt x 418.56375pt>
+File: figures/chapter02/res_3p2gev.png Graphic file (type png)
+<use figures/chapter02/res_3p2gev.png>
+Package pdftex.def Info: figures/chapter02/res_3p2gev.png  used on input line 151.
+(pdftex.def)             Requested size: 187.19714pt x 179.86394pt.
+<figures/chapter02/res_3p5gev.png, id=271, 703.62875pt x 562.1pt>
 File: figures/chapter02/res_3p5gev.png Graphic file (type png)
 <use figures/chapter02/res_3p5gev.png>
 Package pdftex.def Info: figures/chapter02/res_3p5gev.png  used on input line 152.
 (pdftex.def)             Requested size: 210.59857pt x 168.23676pt.
-File: figures/chapter02/res_3p5gev.png Graphic file (type png)
-<use figures/chapter02/res_3p5gev.png>
-Package pdftex.def Info: figures/chapter02/res_3p5gev.png  used on input line 153.
-(pdftex.def)             Requested size: 210.59857pt x 168.23676pt.
+<figures/chapter02/res_3p9gev.png, id=272, 423.5825pt x 420.57124pt>
+File: figures/chapter02/res_3p9gev.png Graphic file (type png)
+<use figures/chapter02/res_3p9gev.png>
+Package pdftex.def Info: figures/chapter02/res_3p9gev.png  used on input line 153.
+(pdftex.def)             Requested size: 187.19714pt x 185.86693pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -888,28 +862,28 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 160.
 
-[10 <./figures/chapter02/EPD_TPC_groups.png> <./figures/chapter02/res_3gev.png> <./figures/chapter02/res_3p5gev.png>]
-<figures/chapter02/3p5GeV_dEdx_P23id.pdf, id=283, 569.12625pt x 436.63126pt>
+[10 <./figures/chapter02/EPD_TPC_groups.png>] [11 <./figures/chapter02/res_3gev.png> <./figures/chapter02/res_3p2gev.png> <./figures/chapter02/res_3p5gev.png> <./figures/chapter02/res_3p9gev.png>]
+<figures/chapter02/3p5GeV_dEdx_P23id.pdf, id=304, 569.12625pt x 436.63126pt>
 File: figures/chapter02/3p5GeV_dEdx_P23id.pdf Graphic file (type pdf)
 <use figures/chapter02/3p5GeV_dEdx_P23id.pdf>
 Package pdftex.def Info: figures/chapter02/3p5GeV_dEdx_P23id.pdf  used on input line 189.
 (pdftex.def)             Requested size: 163.80286pt x 125.66708pt.
-<figures/chapter02/m2_3p5gev.png, id=284, 851.18pt x 623.32875pt>
+<figures/chapter02/m2_3p5gev.png, id=305, 851.18pt x 623.32875pt>
 File: figures/chapter02/m2_3p5gev.png Graphic file (type png)
 <use figures/chapter02/m2_3p5gev.png>
 Package pdftex.def Info: figures/chapter02/m2_3p5gev.png  used on input line 190.
 (pdftex.def)             Requested size: 163.80286pt x 119.95547pt.
-<figures/chapter02/nsigmaproton_3p5gev.png, id=285, 525.965pt x 701.62125pt>
+<figures/chapter02/nsigmaproton_3p5gev.png, id=306, 525.965pt x 701.62125pt>
 File: figures/chapter02/nsigmaproton_3p5gev.png Graphic file (type png)
 <use figures/chapter02/nsigmaproton_3p5gev.png>
 Package pdftex.def Info: figures/chapter02/nsigmaproton_3p5gev.png  used on input line 197.
 (pdftex.def)             Requested size: 257.40143pt x 343.37988pt.
-<figures/chapter02/m2_p_3p5gev.png, id=286, 842.14626pt x 676.5275pt>
+<figures/chapter02/m2_p_3p5gev.png, id=307, 842.14626pt x 676.5275pt>
 File: figures/chapter02/m2_p_3p5gev.png Graphic file (type png)
 <use figures/chapter02/m2_p_3p5gev.png>
 Package pdftex.def Info: figures/chapter02/m2_p_3p5gev.png  used on input line 204.
 (pdftex.def)             Requested size: 257.40143pt x 206.7793pt.
-<figures/chapter02/3p5_piKp_acceptance.pdf, id=287, 569.12625pt x 363.3575pt>
+<figures/chapter02/3p5_piKp_acceptance.pdf, id=308, 569.12625pt x 363.3575pt>
 File: figures/chapter02/3p5_piKp_acceptance.pdf Graphic file (type pdf)
 <use figures/chapter02/3p5_piKp_acceptance.pdf>
 Package pdftex.def Info: figures/chapter02/3p5_piKp_acceptance.pdf  used on input line 211.
@@ -935,22 +909,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 217.
 
-[11] [12 <./figures/chapter02/3p5GeV_dEdx_P23id.pdf, page is rotated 90 degrees> <./figures/chapter02/m2_3p5gev.png> <./figures/chapter02/nsigmaproton_3p5gev.png>]
+
 Overfull \hbox (5.70454pt too wide) in paragraph at lines 226--230
  []$[]$ 
  []
 
-[13 <./figures/chapter02/m2_p_3p5gev.png> <./figures/chapter02/3p5_piKp_acceptance.pdf, page is rotated 90 degrees>]
-<figures/chapter02/3p5gev_K0s_acceptance.pdf, id=407, 569.12625pt x 177.66376pt>
+<figures/chapter02/3p5gev_K0s_acceptance.pdf, id=313, 569.12625pt x 177.66376pt>
 File: figures/chapter02/3p5gev_K0s_acceptance.pdf Graphic file (type pdf)
 <use figures/chapter02/3p5gev_K0s_acceptance.pdf>
 Package pdftex.def Info: figures/chapter02/3p5gev_K0s_acceptance.pdf  used on input line 242.
 (pdftex.def)             Requested size: 257.40143pt x 80.35458pt.
-<figures/chapter02/3p5gev_lambda_acceptance.pdf, id=408, 569.12625pt x 176.66pt>
+<figures/chapter02/3p5gev_lambda_acceptance.pdf, id=314, 569.12625pt x 176.66pt>
 File: figures/chapter02/3p5gev_lambda_acceptance.pdf Graphic file (type pdf)
 <use figures/chapter02/3p5gev_lambda_acceptance.pdf>
 Package pdftex.def Info: figures/chapter02/3p5gev_lambda_acceptance.pdf  used on input line 243.
 (pdftex.def)             Requested size: 257.40143pt x 79.9006pt.
+[12 <./figures/chapter02/3p5GeV_dEdx_P23id.pdf, page is rotated 90 degrees> <./figures/chapter02/m2_3p5gev.png>] [13 <./figures/chapter02/nsigmaproton_3p5gev.png> <./figures/chapter02/m2_p_3p5gev.png>] [14 <./figures/chapter02/3p5_piKp_acceptance.pdf, page is rotated 90 degrees> <./figures/chapter02/3p5gev_K0s_acceptance.pdf, page is rotated 90 degrees> <./figures/chapter02/3p5gev_lambda_acceptance.pdf, page is rotated 90 degrees>]
 LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 268.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
@@ -959,29 +933,28 @@ Overfull \hbox (10.79907pt too wide) in paragraph at lines 266--270
 [][]\OT1/txtt/m/n/12 /star/u/xgn1992/Strangeness/Phi/3p85GeV_fixTarget/SL19e/Simulation/Embedding
  []
 
-[14 <./figures/chapter02/3p5gev_K0s_acceptance.pdf, page is rotated 90 degrees> <./figures/chapter02/3p5gev_lambda_acceptance.pdf, page is rotated 90 degrees>]
-<figures/chapter02/3p2gev_TPC_eff.pdf, id=507, 569.12625pt x 225.84375pt>
+<figures/chapter02/3p2gev_TPC_eff.pdf, id=515, 569.12625pt x 225.84375pt>
 File: figures/chapter02/3p2gev_TPC_eff.pdf Graphic file (type pdf)
 <use figures/chapter02/3p2gev_TPC_eff.pdf>
 Package pdftex.def Info: figures/chapter02/3p2gev_TPC_eff.pdf  used on input line 278.
 (pdftex.def)             Requested size: 304.19714pt x 120.71664pt.
-<figures/chapter02/3p2gev_TOF_eff.pdf, id=511, 569.12625pt x 225.84375pt>
+<figures/chapter02/3p2gev_TOF_eff.pdf, id=519, 569.12625pt x 225.84375pt>
 File: figures/chapter02/3p2gev_TOF_eff.pdf Graphic file (type pdf)
 <use figures/chapter02/3p2gev_TOF_eff.pdf>
 Package pdftex.def Info: figures/chapter02/3p2gev_TOF_eff.pdf  used on input line 299.
 (pdftex.def)             Requested size: 304.19714pt x 120.71664pt.
- [15 <./figures/chapter02/3p2gev_TPC_eff.pdf, page is rotated 90 degrees>]
-<figures/chapter02/3p2_K0s_eff.pdf, id=571, 569.12625pt x 451.6875pt>
+[15 <./figures/chapter02/3p2gev_TPC_eff.pdf, page is rotated 90 degrees>]
+<figures/chapter02/3p2_K0s_eff.pdf, id=579, 569.12625pt x 451.6875pt>
 File: figures/chapter02/3p2_K0s_eff.pdf Graphic file (type pdf)
 <use figures/chapter02/3p2_K0s_eff.pdf>
 Package pdftex.def Info: figures/chapter02/3p2_K0s_eff.pdf  used on input line 316.
 (pdftex.def)             Requested size: 210.59857pt x 167.14243pt.
-<figures/chapter02/3p2_lambda_eff.pdf, id=572, 569.12625pt x 451.6875pt>
+<figures/chapter02/3p2_lambda_eff.pdf, id=580, 569.12625pt x 451.6875pt>
 File: figures/chapter02/3p2_lambda_eff.pdf Graphic file (type pdf)
 <use figures/chapter02/3p2_lambda_eff.pdf>
 Package pdftex.def Info: figures/chapter02/3p2_lambda_eff.pdf  used on input line 317.
 (pdftex.def)             Requested size: 210.59857pt x 167.14243pt.
-) (./data/chapter03.tex
+) (./data/chapter03.tex [16 <./figures/chapter02/3p2gev_TOF_eff.pdf, page is rotated 90 degrees> <./figures/chapter02/3p2_K0s_eff.pdf, page is rotated 90 degrees> <./figures/chapter02/3p2_lambda_eff.pdf, page is rotated 90 degrees>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 7.
@@ -1006,23 +979,21 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 9.
 
-[16 <./figures/chapter02/3p2gev_TOF_eff.pdf, page is rotated 90 degrees> <./figures/chapter02/3p2_K0s_eff.pdf, page is rotated 90 degrees> <./figures/chapter02/3p2_lambda_eff.pdf, page is rotated 90 degrees>]
-<figures/chapter03/3p5gev_pion_v1VSy.pdf, id=708, 569.12625pt x 133.49875pt>
+<figures/chapter03/3p5gev_pion_v1VSy.pdf, id=718, 569.12625pt x 133.49875pt>
 File: figures/chapter03/3p5gev_pion_v1VSy.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_pion_v1VSy.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_pion_v1VSy.pdf  used on input line 16.
 (pdftex.def)             Requested size: 397.80286pt x 93.31606pt.
-<figures/chapter03/3p5gev_kaon_v1VSy.pdf, id=709, 569.12625pt x 133.49875pt>
+<figures/chapter03/3p5gev_kaon_v1VSy.pdf, id=719, 569.12625pt x 133.49875pt>
 File: figures/chapter03/3p5gev_kaon_v1VSy.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_kaon_v1VSy.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_kaon_v1VSy.pdf  used on input line 17.
 (pdftex.def)             Requested size: 397.80286pt x 93.31606pt.
-<figures/chapter03/3p5gev_proton_v1VSy.pdf, id=710, 569.12625pt x 133.49875pt>
+<figures/chapter03/3p5gev_proton_v1VSy.pdf, id=720, 569.12625pt x 133.49875pt>
 File: figures/chapter03/3p5gev_proton_v1VSy.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_proton_v1VSy.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_proton_v1VSy.pdf  used on input line 18.
 (pdftex.def)             Requested size: 397.80286pt x 93.31606pt.
-
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 23.
@@ -1035,50 +1006,51 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 23.
 
-<figures/chapter03/3p5gev_pionp_v1VSy_9pT_cent1.pdf, id=714, 569.12625pt x 380.42125pt>
+[17 <./figures/chapter03/3p5gev_pion_v1VSy.pdf, page is rotated 90 degrees> <./figures/chapter03/3p5gev_kaon_v1VSy.pdf, page is rotated 90 degrees> <./figures/chapter03/3p5gev_proton_v1VSy.pdf, page is rotated 90 degrees>]
+<figures/chapter03/3p5gev_pionp_v1VSy_9pT_cent1.pdf, id=859, 569.12625pt x 380.42125pt>
 File: figures/chapter03/3p5gev_pionp_v1VSy_9pT_cent1.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_pionp_v1VSy_9pT_cent1.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_pionp_v1VSy_9pT_cent1.pdf  used on input line 32.
 (pdftex.def)             Requested size: 397.80286pt x 265.91574pt.
-[17 <./figures/chapter03/3p5gev_pion_v1VSy.pdf, page is rotated 90 degrees> <./figures/chapter03/3p5gev_kaon_v1VSy.pdf, page is rotated 90 degrees> <./figures/chapter03/3p5gev_proton_v1VSy.pdf, page is rotated 90 degrees>]
-<figures/chapter03/3p5gev_pionp_v1Slope_pT.pdf, id=855, 569.12625pt x 152.57pt>
+<figures/chapter03/3p5gev_pionp_v1Slope_pT.pdf, id=861, 569.12625pt x 152.57pt>
 File: figures/chapter03/3p5gev_pionp_v1Slope_pT.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_pionp_v1Slope_pT.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_pionp_v1Slope_pT.pdf  used on input line 47.
 (pdftex.def)             Requested size: 444.59857pt x 119.19269pt.
- [18 <./figures/chapter03/3p5gev_pionp_v1VSy_9pT_cent1.pdf, page is rotated 90 degrees> <./figures/chapter03/3p5gev_pionp_v1Slope_pT.pdf, page is rotated 90 degrees>]
-<figures/chapter03/3p5gev_kaonp_v1Slope_pT.pdf, id=965, 569.12625pt x 152.57pt>
+ [18 <./figures/chapter03/3p5gev_pionp_v1VSy_9pT_cent1.pdf, page is rotated 90 degrees>]
+<figures/chapter03/3p5gev_kaonp_v1Slope_pT.pdf, id=932, 569.12625pt x 152.57pt>
 File: figures/chapter03/3p5gev_kaonp_v1Slope_pT.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_kaonp_v1Slope_pT.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_kaonp_v1Slope_pT.pdf  used on input line 63.
 (pdftex.def)             Requested size: 444.59857pt x 119.19269pt.
-<figures/chapter03/3p5gev_protonp_v1Slope_pT.pdf, id=966, 569.12625pt x 152.57pt>
+<figures/chapter03/3p5gev_protonp_v1Slope_pT.pdf, id=933, 569.12625pt x 152.57pt>
 File: figures/chapter03/3p5gev_protonp_v1Slope_pT.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_protonp_v1Slope_pT.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_protonp_v1Slope_pT.pdf  used on input line 70.
 (pdftex.def)             Requested size: 444.59857pt x 119.19269pt.
- [19 <./figures/chapter03/3p5gev_kaonp_v1Slope_pT.pdf, page is rotated 90 degrees> <./figures/chapter03/3p5gev_protonp_v1Slope_pT.pdf, page is rotated 90 degrees>]
-<figures/chapter03/3p5gev_pion_v1y_sysUnc.png, id=1075, 1216.545pt x 893.3375pt>
+ [19 <./figures/chapter03/3p5gev_pionp_v1Slope_pT.pdf, page is rotated 90 degrees> <./figures/chapter03/3p5gev_kaonp_v1Slope_pT.pdf, page is rotated 90 degrees> <./figures/chapter03/3p5gev_protonp_v1Slope_pT.pdf, page is rotated 90 degrees>]
+<figures/chapter03/3p5gev_pion_v1y_sysUnc.png, id=1083, 1216.545pt x 893.3375pt>
 File: figures/chapter03/3p5gev_pion_v1y_sysUnc.png Graphic file (type png)
 <use figures/chapter03/3p5gev_pion_v1y_sysUnc.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_pion_v1y_sysUnc.png  used on input line 120.
 (pdftex.def)             Requested size: 444.59857pt x 326.48123pt.
-<figures/chapter03/3p5gev_pion_v1y.png, id=1076, 857.2025pt x 589.20125pt>
+ [20]
+<figures/chapter03/3p5gev_pion_v1y.png, id=1096, 857.2025pt x 589.20125pt>
 File: figures/chapter03/3p5gev_pion_v1y.png Graphic file (type png)
 <use figures/chapter03/3p5gev_pion_v1y.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_pion_v1y.png  used on input line 127.
 (pdftex.def)             Requested size: 304.19714pt x 209.09148pt.
-<figures/chapter03/3p5gev_pionplus_v1yPt_sysUnc.png, id=1077, 1272.755pt x 862.22125pt>
+<figures/chapter03/3p5gev_pionplus_v1yPt_sysUnc.png, id=1097, 1272.755pt x 862.22125pt>
 File: figures/chapter03/3p5gev_pionplus_v1yPt_sysUnc.png Graphic file (type png)
 <use figures/chapter03/3p5gev_pionplus_v1yPt_sysUnc.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_pionplus_v1yPt_sysUnc.png  used on input line 134.
 (pdftex.def)             Requested size: 444.59857pt x 301.18991pt.
-<figures/chapter03/3p5gev_pion_v1slopeIndex_sysUnc.png, id=1078, 1156.32pt x 886.31125pt>
+<figures/chapter03/3p5gev_pion_v1slopeIndex_sysUnc.png, id=1098, 1156.32pt x 886.31125pt>
 File: figures/chapter03/3p5gev_pion_v1slopeIndex_sysUnc.png Graphic file (type png)
 <use figures/chapter03/3p5gev_pion_v1slopeIndex_sysUnc.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_pion_v1slopeIndex_sysUnc.png  used on input line 141.
 (pdftex.def)             Requested size: 397.80286pt x 304.91217pt.
-<figures/chapter03/3p5gev_pion_v1slopePt.png, id=1079, 743.77875pt x 598.235pt>
+<figures/chapter03/3p5gev_pion_v1slopePt.png, id=1099, 743.77875pt x 598.235pt>
 File: figures/chapter03/3p5gev_pion_v1slopePt.png Graphic file (type png)
 <use figures/chapter03/3p5gev_pion_v1slopePt.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_pion_v1slopePt.png  used on input line 148.
@@ -1112,13 +1084,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 153.
 
-[20] [21 <./figures/chapter03/3p5gev_pion_v1y_sysUnc.png> <./figures/chapter03/3p5gev_pion_v1y.png>]
-<figures/chapter03/3p5gev_K0s_invMass.png, id=1099, 1157.32375pt x 510.90875pt>
+<figures/chapter03/3p5gev_K0s_invMass.png, id=1102, 1157.32375pt x 510.90875pt>
 File: figures/chapter03/3p5gev_K0s_invMass.png Graphic file (type png)
 <use figures/chapter03/3p5gev_K0s_invMass.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_K0s_invMass.png  used on input line 172.
 (pdftex.def)             Requested size: 397.80286pt x 175.60886pt.
-
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 177.
@@ -1131,16 +1101,17 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 177.
 
-<figures/chapter03/3p5gev_K0s_v1VSy.png, id=1101, 447.5922pt x 304.9794pt>
+<figures/chapter03/3p5gev_K0s_v1VSy.png, id=1104, 447.5922pt x 304.9794pt>
 File: figures/chapter03/3p5gev_K0s_v1VSy.png Graphic file (type png)
 <use figures/chapter03/3p5gev_K0s_v1VSy.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_K0s_v1VSy.png  used on input line 184.
 (pdftex.def)             Requested size: 210.59857pt x 143.49855pt.
-<figures/chapter03/3p5gev_Lambda_v1VSy.png, id=1102, 447.5922pt x 304.9794pt>
+<figures/chapter03/3p5gev_Lambda_v1VSy.png, id=1105, 447.5922pt x 304.9794pt>
 File: figures/chapter03/3p5gev_Lambda_v1VSy.png Graphic file (type png)
 <use figures/chapter03/3p5gev_Lambda_v1VSy.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_Lambda_v1VSy.png  used on input line 185.
 (pdftex.def)             Requested size: 210.59857pt x 143.49855pt.
+[21 <./figures/chapter03/3p5gev_pion_v1y_sysUnc.png>] [22 <./figures/chapter03/3p5gev_pion_v1y.png> <./figures/chapter03/3p5gev_pionplus_v1yPt_sysUnc.png>] [23 <./figures/chapter03/3p5gev_pion_v1slopeIndex_sysUnc.png> <./figures/chapter03/3p5gev_pion_v1slopePt.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 190.
@@ -1153,95 +1124,93 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 190.
 
-<figures/chapter03/3p5gev_K0s_v1VSy_pT_cent1.png, id=1104, 464.4552pt x 451.4466pt>
+<figures/chapter03/3p5gev_K0s_v1VSy_pT_cent1.png, id=1126, 464.4552pt x 451.4466pt>
 File: figures/chapter03/3p5gev_K0s_v1VSy_pT_cent1.png Graphic file (type png)
 <use figures/chapter03/3p5gev_K0s_v1VSy_pT_cent1.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_K0s_v1VSy_pT_cent1.png  used on input line 198.
 (pdftex.def)             Requested size: 210.59857pt x 204.69899pt.
-<figures/chapter03/3p5gev_Lambda_v1VSy_pT_cent1.png, id=1105, 499.6266pt x 485.6544pt>
+<figures/chapter03/3p5gev_Lambda_v1VSy_pT_cent1.png, id=1127, 499.6266pt x 485.6544pt>
 File: figures/chapter03/3p5gev_Lambda_v1VSy_pT_cent1.png Graphic file (type png)
 <use figures/chapter03/3p5gev_Lambda_v1VSy_pT_cent1.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_Lambda_v1VSy_pT_cent1.png  used on input line 199.
 (pdftex.def)             Requested size: 210.59857pt x 204.70709pt.
-[22 <./figures/chapter03/3p5gev_pionplus_v1yPt_sysUnc.png>]
-<figures/chapter03/3p5gev_K0s_v1Slope_pT.png, id=1115, 395.076pt x 315.0972pt>
+<figures/chapter03/3p5gev_K0s_v1Slope_pT.png, id=1129, 395.076pt x 315.0972pt>
 File: figures/chapter03/3p5gev_K0s_v1Slope_pT.png Graphic file (type png)
 <use figures/chapter03/3p5gev_K0s_v1Slope_pT.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_K0s_v1Slope_pT.png  used on input line 210.
 (pdftex.def)             Requested size: 210.59857pt x 167.96712pt.
-<figures/chapter03/3p5gev_Lambda_v1Slope_pT.png, id=1116, 396.0396pt x 314.1336pt>
+<figures/chapter03/3p5gev_Lambda_v1Slope_pT.png, id=1130, 396.0396pt x 314.1336pt>
 File: figures/chapter03/3p5gev_Lambda_v1Slope_pT.png Graphic file (type png)
 <use figures/chapter03/3p5gev_Lambda_v1Slope_pT.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_Lambda_v1Slope_pT.png  used on input line 211.
 (pdftex.def)             Requested size: 210.59857pt x 167.04604pt.
- [23 <./figures/chapter03/3p5gev_pion_v1slopeIndex_sysUnc.png> <./figures/chapter03/3p5gev_pion_v1slopePt.png>] [24 <./figures/chapter03/3p5gev_K0s_invMass.png> <./figures/chapter03/3p5gev_K0s_v1VSy.png> <./figures/chapter03/3p5gev_Lambda_v1VSy.png>]
-<figures/chapter03/3p5gev_K0s_v1y_sysUnc.pdf, id=1143, 648.4225pt x 233.87375pt>
+[24 <./figures/chapter03/3p5gev_K0s_invMass.png> <./figures/chapter03/3p5gev_K0s_v1VSy.png> <./figures/chapter03/3p5gev_Lambda_v1VSy.png>] [25 <./figures/chapter03/3p5gev_K0s_v1VSy_pT_cent1.png> <./figures/chapter03/3p5gev_Lambda_v1VSy_pT_cent1.png> <./figures/chapter03/3p5gev_K0s_v1Slope_pT.png> <./figures/chapter03/3p5gev_Lambda_v1Slope_pT.png>]
+<figures/chapter03/3p5gev_K0s_v1y_sysUnc.pdf, id=1162, 648.4225pt x 233.87375pt>
 File: figures/chapter03/3p5gev_K0s_v1y_sysUnc.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_K0s_v1y_sysUnc.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_K0s_v1y_sysUnc.pdf  used on input line 257.
 (pdftex.def)             Requested size: 444.59857pt x 160.35956pt.
- [25 <./figures/chapter03/3p5gev_K0s_v1VSy_pT_cent1.png> <./figures/chapter03/3p5gev_Lambda_v1VSy_pT_cent1.png> <./figures/chapter03/3p5gev_K0s_v1Slope_pT.png> <./figures/chapter03/3p5gev_Lambda_v1Slope_pT.png>]
-<figures/chapter03/3p5gev_lam_v1y_sysUnc.pdf, id=1159, 656.4525pt x 236.885pt>
+<figures/chapter03/3p5gev_lam_v1y_sysUnc.pdf, id=1163, 656.4525pt x 236.885pt>
 File: figures/chapter03/3p5gev_lam_v1y_sysUnc.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_lam_v1y_sysUnc.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_lam_v1y_sysUnc.pdf  used on input line 264.
 (pdftex.def)             Requested size: 444.59857pt x 160.43626pt.
-<figures/chapter03/3p5gev_K0s_v1yPt_sysUnc.pdf, id=1160, 624.3325pt x 417.56pt>
+<figures/chapter03/3p5gev_K0s_v1yPt_sysUnc.pdf, id=1164, 624.3325pt x 417.56pt>
 File: figures/chapter03/3p5gev_K0s_v1yPt_sysUnc.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_K0s_v1yPt_sysUnc.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_K0s_v1yPt_sysUnc.pdf  used on input line 272.
 (pdftex.def)             Requested size: 444.59857pt x 297.35529pt.
-<figures/chapter03/3p5gev_lam_v1yPt_sysUnc.pdf, id=1161, 657.45625pt x 439.6425pt>
+<figures/chapter03/3p5gev_lam_v1yPt_sysUnc.pdf, id=1165, 657.45625pt x 439.6425pt>
 File: figures/chapter03/3p5gev_lam_v1yPt_sysUnc.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_lam_v1yPt_sysUnc.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_lam_v1yPt_sysUnc.pdf  used on input line 279.
 (pdftex.def)             Requested size: 444.59857pt x 297.30939pt.
-<figures/chapter03/3p5gev_K0s_v1slopeIndex_sysUnc.pdf, id=1162, 801.99625pt x 289.08pt>
+<figures/chapter03/3p5gev_K0s_v1slopeIndex_sysUnc.pdf, id=1166, 801.99625pt x 289.08pt>
 File: figures/chapter03/3p5gev_K0s_v1slopeIndex_sysUnc.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_K0s_v1slopeIndex_sysUnc.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_K0s_v1slopeIndex_sysUnc.pdf  used on input line 286.
 (pdftex.def)             Requested size: 397.80286pt x 143.39278pt.
-<figures/chapter03/3p5gev_lam_v1slopeIndex_sysUnc.pdf, id=1163, 924.45375pt x 333.245pt>
+<figures/chapter03/3p5gev_lam_v1slopeIndex_sysUnc.pdf, id=1167, 924.45375pt x 333.245pt>
 File: figures/chapter03/3p5gev_lam_v1slopeIndex_sysUnc.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_lam_v1slopeIndex_sysUnc.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_lam_v1slopeIndex_sysUnc.pdf  used on input line 293.
 (pdftex.def)             Requested size: 397.80286pt x 143.39932pt.
-) (./data/chapter04.tex) [26 <./figures/chapter03/3p5gev_K0s_v1y_sysUnc.pdf> <./figures/chapter03/3p5gev_lam_v1y_sysUnc.pdf>] [27 <./figures/chapter03/3p5gev_K0s_v1yPt_sysUnc.pdf>] [28 <./figures/chapter03/3p5gev_lam_v1yPt_sysUnc.pdf> <./figures/chapter03/3p5gev_K0s_v1slopeIndex_sysUnc.pdf>] [29 <./figures/chapter03/3p5gev_lam_v1slopeIndex_sysUnc.pdf>] (./data/appendix.tex
+) (./data/chapter04.tex) [26 <./figures/chapter03/3p5gev_K0s_v1y_sysUnc.pdf>] [27 <./figures/chapter03/3p5gev_lam_v1y_sysUnc.pdf> <./figures/chapter03/3p5gev_K0s_v1yPt_sysUnc.pdf>] [28 <./figures/chapter03/3p5gev_lam_v1yPt_sysUnc.pdf> <./figures/chapter03/3p5gev_K0s_v1slopeIndex_sysUnc.pdf>] [29 <./figures/chapter03/3p5gev_lam_v1slopeIndex_sysUnc.pdf>] (./data/appendix.tex
 Overfull \hbox (51.25864pt too wide) in paragraph at lines 9--16
  []$[]$ 
  []
 
-<figures/chapter02/3gev_piKp_acceptance.pdf, id=1242, 569.12625pt x 364.36125pt>
+<figures/chapter02/3gev_piKp_acceptance.pdf, id=1252, 569.12625pt x 364.36125pt>
 File: figures/chapter02/3gev_piKp_acceptance.pdf Graphic file (type pdf)
 <use figures/chapter02/3gev_piKp_acceptance.pdf>
 Package pdftex.def Info: figures/chapter02/3gev_piKp_acceptance.pdf  used on input line 23.
 (pdftex.def)             Requested size: 257.40143pt x 164.795pt.
-<figures/chapter02/3gev_K0s_acceptance.pdf, id=1243, 569.12625pt x 179.67125pt>
+<figures/chapter02/3gev_K0s_acceptance.pdf, id=1253, 569.12625pt x 179.67125pt>
 File: figures/chapter02/3gev_K0s_acceptance.pdf Graphic file (type pdf)
 <use figures/chapter02/3gev_K0s_acceptance.pdf>
 Package pdftex.def Info: figures/chapter02/3gev_K0s_acceptance.pdf  used on input line 31.
 (pdftex.def)             Requested size: 257.40143pt x 81.26253pt.
-<figures/chapter02/3gev_lambda_acceptance.pdf, id=1244, 569.12625pt x 179.67125pt>
+<figures/chapter02/3gev_lambda_acceptance.pdf, id=1254, 569.12625pt x 179.67125pt>
 File: figures/chapter02/3gev_lambda_acceptance.pdf Graphic file (type pdf)
 <use figures/chapter02/3gev_lambda_acceptance.pdf>
 Package pdftex.def Info: figures/chapter02/3gev_lambda_acceptance.pdf  used on input line 32.
 (pdftex.def)             Requested size: 257.40143pt x 81.26253pt.
-<figures/chapter02/3gev_TPC_eff.pdf, id=1245, 569.12625pt x 245.91875pt>
+<figures/chapter02/3gev_TPC_eff.pdf, id=1255, 569.12625pt x 245.91875pt>
 File: figures/chapter02/3gev_TPC_eff.pdf Graphic file (type pdf)
 <use figures/chapter02/3gev_TPC_eff.pdf>
 Package pdftex.def Info: figures/chapter02/3gev_TPC_eff.pdf  used on input line 40.
 (pdftex.def)             Requested size: 304.19714pt x 131.44702pt.
-<figures/chapter02/3gev_TOF_eff.png, id=1246, 491.8375pt x 457.71pt>
+<figures/chapter02/3gev_TOF_eff.png, id=1256, 491.8375pt x 457.71pt>
 File: figures/chapter02/3gev_TOF_eff.png Graphic file (type png)
 <use figures/chapter02/3gev_TOF_eff.png>
 Package pdftex.def Info: figures/chapter02/3gev_TOF_eff.png  used on input line 47.
 (pdftex.def)             Requested size: 257.40143pt x 239.54707pt.
-<figures/chapter02/3gev_K0s_eff.pdf, id=1247, 569.12625pt x 451.6875pt>
+<figures/chapter02/3gev_K0s_eff.pdf, id=1257, 569.12625pt x 451.6875pt>
 File: figures/chapter02/3gev_K0s_eff.pdf Graphic file (type pdf)
 <use figures/chapter02/3gev_K0s_eff.pdf>
 Package pdftex.def Info: figures/chapter02/3gev_K0s_eff.pdf  used on input line 54.
 (pdftex.def)             Requested size: 210.59857pt x 167.14243pt.
-<figures/chapter02/3gev_lambda_eff.pdf, id=1248, 569.12625pt x 451.6875pt>
+<figures/chapter02/3gev_lambda_eff.pdf, id=1258, 569.12625pt x 451.6875pt>
 File: figures/chapter02/3gev_lambda_eff.pdf Graphic file (type pdf)
 <use figures/chapter02/3gev_lambda_eff.pdf>
 Package pdftex.def Info: figures/chapter02/3gev_lambda_eff.pdf  used on input line 55.
@@ -1258,153 +1227,153 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 61.
 
-<figures/chapter03/3p5gev_pionp_v1VSy_9pT_cent0.pdf, id=1249, 569.12625pt x 380.42125pt>
+<figures/chapter03/3p5gev_pionp_v1VSy_9pT_cent0.pdf, id=1259, 569.12625pt x 380.42125pt>
 File: figures/chapter03/3p5gev_pionp_v1VSy_9pT_cent0.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_pionp_v1VSy_9pT_cent0.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_pionp_v1VSy_9pT_cent0.pdf  used on input line 65.
 (pdftex.def)             Requested size: 397.80286pt x 265.91574pt.
 [30] [31 <./figures/chapter02/3gev_piKp_acceptance.pdf, page is rotated 90 degrees> <./figures/chapter02/3gev_K0s_acceptance.pdf, page is rotated 90 degrees> <./figures/chapter02/3gev_lambda_acceptance.pdf, page is rotated 90 degrees> <./figures/chapter02/3gev_TPC_eff.pdf, page is rotated 90 degrees>]
-<figures/chapter03/3p5gev_pionp_v1VSy_9pT_cent2.pdf, id=1432, 569.12625pt x 380.42125pt>
+<figures/chapter03/3p5gev_pionp_v1VSy_9pT_cent2.pdf, id=1442, 569.12625pt x 380.42125pt>
 File: figures/chapter03/3p5gev_pionp_v1VSy_9pT_cent2.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_pionp_v1VSy_9pT_cent2.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_pionp_v1VSy_9pT_cent2.pdf  used on input line 72.
 (pdftex.def)             Requested size: 397.80286pt x 265.91574pt.
-<figures/chapter03/3p5gev_kaonp_v1VSy_9pT_cent0.pdf, id=1433, 569.12625pt x 380.42125pt>
+<figures/chapter03/3p5gev_kaonp_v1VSy_9pT_cent0.pdf, id=1443, 569.12625pt x 380.42125pt>
 File: figures/chapter03/3p5gev_kaonp_v1VSy_9pT_cent0.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_kaonp_v1VSy_9pT_cent0.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_kaonp_v1VSy_9pT_cent0.pdf  used on input line 80.
 (pdftex.def)             Requested size: 397.80286pt x 265.91574pt.
-<figures/chapter03/3p5gev_kaonp_v1VSy_9pT_cent1.pdf, id=1434, 569.12625pt x 380.42125pt>
+<figures/chapter03/3p5gev_kaonp_v1VSy_9pT_cent1.pdf, id=1444, 569.12625pt x 380.42125pt>
 File: figures/chapter03/3p5gev_kaonp_v1VSy_9pT_cent1.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_kaonp_v1VSy_9pT_cent1.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_kaonp_v1VSy_9pT_cent1.pdf  used on input line 87.
 (pdftex.def)             Requested size: 397.80286pt x 265.91574pt.
-<figures/chapter03/3p5gev_kaonp_v1VSy_9pT_cent2.pdf, id=1435, 569.12625pt x 380.42125pt>
+<figures/chapter03/3p5gev_kaonp_v1VSy_9pT_cent2.pdf, id=1445, 569.12625pt x 380.42125pt>
 File: figures/chapter03/3p5gev_kaonp_v1VSy_9pT_cent2.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_kaonp_v1VSy_9pT_cent2.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_kaonp_v1VSy_9pT_cent2.pdf  used on input line 94.
 (pdftex.def)             Requested size: 397.80286pt x 265.91574pt.
-<figures/chapter03/3p5gev_protonp_v1VSy_9pT_cent0.pdf, id=1436, 569.12625pt x 380.42125pt>
+<figures/chapter03/3p5gev_protonp_v1VSy_9pT_cent0.pdf, id=1446, 569.12625pt x 380.42125pt>
 File: figures/chapter03/3p5gev_protonp_v1VSy_9pT_cent0.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_protonp_v1VSy_9pT_cent0.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_protonp_v1VSy_9pT_cent0.pdf  used on input line 101.
 (pdftex.def)             Requested size: 397.80286pt x 265.91574pt.
-<figures/chapter03/3p5gev_protonp_v1VSy_9pT_cent1.pdf, id=1437, 569.12625pt x 380.42125pt>
+<figures/chapter03/3p5gev_protonp_v1VSy_9pT_cent1.pdf, id=1447, 569.12625pt x 380.42125pt>
 File: figures/chapter03/3p5gev_protonp_v1VSy_9pT_cent1.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_protonp_v1VSy_9pT_cent1.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_protonp_v1VSy_9pT_cent1.pdf  used on input line 108.
 (pdftex.def)             Requested size: 397.80286pt x 265.91574pt.
-<figures/chapter03/3p5gev_protonp_v1VSy_9pT_cent2.pdf, id=1438, 569.12625pt x 380.42125pt>
+<figures/chapter03/3p5gev_protonp_v1VSy_9pT_cent2.pdf, id=1448, 569.12625pt x 380.42125pt>
 File: figures/chapter03/3p5gev_protonp_v1VSy_9pT_cent2.pdf Graphic file (type pdf)
 <use figures/chapter03/3p5gev_protonp_v1VSy_9pT_cent2.pdf>
 Package pdftex.def Info: figures/chapter03/3p5gev_protonp_v1VSy_9pT_cent2.pdf  used on input line 115.
 (pdftex.def)             Requested size: 397.80286pt x 265.91574pt.
-<figures/chapter03/3gev_pionp_v1Slope_pT.pdf, id=1439, 569.12625pt x 152.57pt>
+<figures/chapter03/3gev_pionp_v1Slope_pT.pdf, id=1449, 569.12625pt x 152.57pt>
 File: figures/chapter03/3gev_pionp_v1Slope_pT.pdf Graphic file (type pdf)
 <use figures/chapter03/3gev_pionp_v1Slope_pT.pdf>
 Package pdftex.def Info: figures/chapter03/3gev_pionp_v1Slope_pT.pdf  used on input line 122.
 (pdftex.def)             Requested size: 444.59857pt x 119.19269pt.
-<figures/chapter03/3gev_kaonp_v1Slope_pT.pdf, id=1440, 569.12625pt x 152.57pt>
+<figures/chapter03/3gev_kaonp_v1Slope_pT.pdf, id=1450, 569.12625pt x 152.57pt>
 File: figures/chapter03/3gev_kaonp_v1Slope_pT.pdf Graphic file (type pdf)
 <use figures/chapter03/3gev_kaonp_v1Slope_pT.pdf>
 Package pdftex.def Info: figures/chapter03/3gev_kaonp_v1Slope_pT.pdf  used on input line 129.
 (pdftex.def)             Requested size: 444.59857pt x 119.19269pt.
-<figures/chapter03/3gev_protonp_v1Slope_pT.pdf, id=1441, 569.12625pt x 152.57pt>
+<figures/chapter03/3gev_protonp_v1Slope_pT.pdf, id=1451, 569.12625pt x 152.57pt>
 File: figures/chapter03/3gev_protonp_v1Slope_pT.pdf Graphic file (type pdf)
 <use figures/chapter03/3gev_protonp_v1Slope_pT.pdf>
 Package pdftex.def Info: figures/chapter03/3gev_protonp_v1Slope_pT.pdf  used on input line 136.
 (pdftex.def)             Requested size: 444.59857pt x 119.19269pt.
-<figures/chapter03/3gev_pionp_v1VSy_9pT_cent0.pdf, id=1442, 569.12625pt x 380.42125pt>
+<figures/chapter03/3gev_pionp_v1VSy_9pT_cent0.pdf, id=1452, 569.12625pt x 380.42125pt>
 File: figures/chapter03/3gev_pionp_v1VSy_9pT_cent0.pdf Graphic file (type pdf)
 <use figures/chapter03/3gev_pionp_v1VSy_9pT_cent0.pdf>
 Package pdftex.def Info: figures/chapter03/3gev_pionp_v1VSy_9pT_cent0.pdf  used on input line 143.
 (pdftex.def)             Requested size: 397.80286pt x 265.91574pt.
-<figures/chapter03/3gev_pionp_v1VSy_9pT_cent1.pdf, id=1443, 569.12625pt x 380.42125pt>
+<figures/chapter03/3gev_pionp_v1VSy_9pT_cent1.pdf, id=1453, 569.12625pt x 380.42125pt>
 File: figures/chapter03/3gev_pionp_v1VSy_9pT_cent1.pdf Graphic file (type pdf)
 <use figures/chapter03/3gev_pionp_v1VSy_9pT_cent1.pdf>
 Package pdftex.def Info: figures/chapter03/3gev_pionp_v1VSy_9pT_cent1.pdf  used on input line 150.
 (pdftex.def)             Requested size: 397.80286pt x 265.91574pt.
-<figures/chapter03/3gev_pionp_v1VSy_9pT_cent2.pdf, id=1444, 569.12625pt x 380.42125pt>
+<figures/chapter03/3gev_pionp_v1VSy_9pT_cent2.pdf, id=1454, 569.12625pt x 380.42125pt>
 File: figures/chapter03/3gev_pionp_v1VSy_9pT_cent2.pdf Graphic file (type pdf)
 <use figures/chapter03/3gev_pionp_v1VSy_9pT_cent2.pdf>
 Package pdftex.def Info: figures/chapter03/3gev_pionp_v1VSy_9pT_cent2.pdf  used on input line 157.
 (pdftex.def)             Requested size: 397.80286pt x 265.91574pt.
-<figures/chapter03/3gev_kaonp_v1VSy_9pT_cent0.pdf, id=1445, 569.12625pt x 380.42125pt>
+<figures/chapter03/3gev_kaonp_v1VSy_9pT_cent0.pdf, id=1455, 569.12625pt x 380.42125pt>
 File: figures/chapter03/3gev_kaonp_v1VSy_9pT_cent0.pdf Graphic file (type pdf)
 <use figures/chapter03/3gev_kaonp_v1VSy_9pT_cent0.pdf>
 Package pdftex.def Info: figures/chapter03/3gev_kaonp_v1VSy_9pT_cent0.pdf  used on input line 165.
 (pdftex.def)             Requested size: 397.80286pt x 265.91574pt.
-<figures/chapter03/3gev_kaonp_v1VSy_9pT_cent1.pdf, id=1446, 569.12625pt x 380.42125pt>
+<figures/chapter03/3gev_kaonp_v1VSy_9pT_cent1.pdf, id=1456, 569.12625pt x 380.42125pt>
 File: figures/chapter03/3gev_kaonp_v1VSy_9pT_cent1.pdf Graphic file (type pdf)
 <use figures/chapter03/3gev_kaonp_v1VSy_9pT_cent1.pdf>
 Package pdftex.def Info: figures/chapter03/3gev_kaonp_v1VSy_9pT_cent1.pdf  used on input line 172.
 (pdftex.def)             Requested size: 397.80286pt x 265.91574pt.
-<figures/chapter03/3gev_kaonp_v1VSy_9pT_cent2.pdf, id=1447, 569.12625pt x 380.42125pt>
+<figures/chapter03/3gev_kaonp_v1VSy_9pT_cent2.pdf, id=1457, 569.12625pt x 380.42125pt>
 File: figures/chapter03/3gev_kaonp_v1VSy_9pT_cent2.pdf Graphic file (type pdf)
 <use figures/chapter03/3gev_kaonp_v1VSy_9pT_cent2.pdf>
 Package pdftex.def Info: figures/chapter03/3gev_kaonp_v1VSy_9pT_cent2.pdf  used on input line 179.
 (pdftex.def)             Requested size: 397.80286pt x 265.91574pt.
-<figures/chapter03/3gev_protonp_v1VSy_9pT_cent0.pdf, id=1448, 569.12625pt x 380.42125pt>
+<figures/chapter03/3gev_protonp_v1VSy_9pT_cent0.pdf, id=1458, 569.12625pt x 380.42125pt>
 File: figures/chapter03/3gev_protonp_v1VSy_9pT_cent0.pdf Graphic file (type pdf)
 <use figures/chapter03/3gev_protonp_v1VSy_9pT_cent0.pdf>
 Package pdftex.def Info: figures/chapter03/3gev_protonp_v1VSy_9pT_cent0.pdf  used on input line 187.
 (pdftex.def)             Requested size: 397.80286pt x 265.91574pt.
-<figures/chapter03/3gev_protonp_v1VSy_9pT_cent1.pdf, id=1449, 569.12625pt x 380.42125pt>
+<figures/chapter03/3gev_protonp_v1VSy_9pT_cent1.pdf, id=1459, 569.12625pt x 380.42125pt>
 File: figures/chapter03/3gev_protonp_v1VSy_9pT_cent1.pdf Graphic file (type pdf)
 <use figures/chapter03/3gev_protonp_v1VSy_9pT_cent1.pdf>
 Package pdftex.def Info: figures/chapter03/3gev_protonp_v1VSy_9pT_cent1.pdf  used on input line 194.
 (pdftex.def)             Requested size: 397.80286pt x 265.91574pt.
-<figures/chapter03/3gev_protonp_v1VSy_9pT_cent2.pdf, id=1450, 569.12625pt x 380.42125pt>
+<figures/chapter03/3gev_protonp_v1VSy_9pT_cent2.pdf, id=1460, 569.12625pt x 380.42125pt>
 File: figures/chapter03/3gev_protonp_v1VSy_9pT_cent2.pdf Graphic file (type pdf)
 <use figures/chapter03/3gev_protonp_v1VSy_9pT_cent2.pdf>
 Package pdftex.def Info: figures/chapter03/3gev_protonp_v1VSy_9pT_cent2.pdf  used on input line 201.
 (pdftex.def)             Requested size: 397.80286pt x 265.91574pt.
-<figures/chapter03/3p5gev_kaon_v1y_sysUnc.png, id=1451, 1250.6725pt x 875.27pt>
+<figures/chapter03/3p5gev_kaon_v1y_sysUnc.png, id=1461, 1250.6725pt x 875.27pt>
 File: figures/chapter03/3p5gev_kaon_v1y_sysUnc.png Graphic file (type png)
 <use figures/chapter03/3p5gev_kaon_v1y_sysUnc.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_kaon_v1y_sysUnc.png  used on input line 209.
 (pdftex.def)             Requested size: 444.59857pt x 311.14372pt.
-<figures/chapter03/3p5gev_kaon_v1y.png, id=1452, 889.3225pt x 636.3775pt>
+<figures/chapter03/3p5gev_kaon_v1y.png, id=1462, 889.3225pt x 636.3775pt>
 File: figures/chapter03/3p5gev_kaon_v1y.png Graphic file (type png)
 <use figures/chapter03/3p5gev_kaon_v1y.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_kaon_v1y.png  used on input line 216.
 (pdftex.def)             Requested size: 304.19714pt x 217.67638pt.
-<figures/chapter03/3p5gev_kaonplus_v1yPt_sysUnc.png, id=1453, 1220.56pt x 854.19125pt>
+<figures/chapter03/3p5gev_kaonplus_v1yPt_sysUnc.png, id=1463, 1220.56pt x 854.19125pt>
 File: figures/chapter03/3p5gev_kaonplus_v1yPt_sysUnc.png Graphic file (type png)
 <use figures/chapter03/3p5gev_kaonplus_v1yPt_sysUnc.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_kaonplus_v1yPt_sysUnc.png  used on input line 223.
 (pdftex.def)             Requested size: 444.59857pt x 311.14508pt.
-<figures/chapter03/3p5gev_kaon_v1slopeIndex_sysUnc.png, id=1454, 1152.305pt x 864.22874pt>
+<figures/chapter03/3p5gev_kaon_v1slopeIndex_sysUnc.png, id=1464, 1152.305pt x 864.22874pt>
 File: figures/chapter03/3p5gev_kaon_v1slopeIndex_sysUnc.png Graphic file (type png)
 <use figures/chapter03/3p5gev_kaon_v1slopeIndex_sysUnc.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_kaon_v1slopeIndex_sysUnc.png  used on input line 230.
 (pdftex.def)             Requested size: 397.80286pt x 298.35704pt.
-<figures/chapter03/3p5gev_kaon_v1slopePt.png, id=1455, 706.64pt x 573.14125pt>
+<figures/chapter03/3p5gev_kaon_v1slopePt.png, id=1465, 706.64pt x 573.14125pt>
 File: figures/chapter03/3p5gev_kaon_v1slopePt.png Graphic file (type png)
 <use figures/chapter03/3p5gev_kaon_v1slopePt.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_kaon_v1slopePt.png  used on input line 237.
 (pdftex.def)             Requested size: 257.40143pt x 208.77066pt.
-<figures/chapter03/3p5gev_proton_v1y_sysUnc.png, id=1456, 1740.5025pt x 635.37375pt>
+<figures/chapter03/3p5gev_proton_v1y_sysUnc.png, id=1466, 1740.5025pt x 635.37375pt>
 File: figures/chapter03/3p5gev_proton_v1y_sysUnc.png Graphic file (type png)
 <use figures/chapter03/3p5gev_proton_v1y_sysUnc.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_proton_v1y_sysUnc.png  used on input line 245.
 (pdftex.def)             Requested size: 444.59857pt x 162.30415pt.
-<figures/chapter03/3p5gev_proton_v1y.png, id=1457, 1005.7575pt x 724.7075pt>
+<figures/chapter03/3p5gev_proton_v1y.png, id=1467, 1005.7575pt x 724.7075pt>
 File: figures/chapter03/3p5gev_proton_v1y.png Graphic file (type png)
 <use figures/chapter03/3p5gev_proton_v1y.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_proton_v1y.png  used on input line 252.
 (pdftex.def)             Requested size: 304.19714pt x 219.18323pt.
-<figures/chapter03/3p5gev_proton_v1yPt_sysUnc.png, id=1458, 1301.86375pt x 889.3225pt>
+<figures/chapter03/3p5gev_proton_v1yPt_sysUnc.png, id=1468, 1301.86375pt x 889.3225pt>
 File: figures/chapter03/3p5gev_proton_v1yPt_sysUnc.png Graphic file (type png)
 <use figures/chapter03/3p5gev_proton_v1yPt_sysUnc.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_proton_v1yPt_sysUnc.png  used on input line 259.
 (pdftex.def)             Requested size: 444.59857pt x 303.70906pt.
-<figures/chapter03/3p5gev_proton_v1slopeIndex_sysUnc.png, id=1459, 1730.465pt x 678.535pt>
+<figures/chapter03/3p5gev_proton_v1slopeIndex_sysUnc.png, id=1469, 1730.465pt x 678.535pt>
 File: figures/chapter03/3p5gev_proton_v1slopeIndex_sysUnc.png Graphic file (type png)
 <use figures/chapter03/3p5gev_proton_v1slopeIndex_sysUnc.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_proton_v1slopeIndex_sysUnc.png  used on input line 266.
 (pdftex.def)             Requested size: 397.80286pt x 155.97693pt.
-<figures/chapter03/3p5gev_proton_v1slopePt.png, id=1460, 700.6175pt x 583.17876pt>
+<figures/chapter03/3p5gev_proton_v1slopePt.png, id=1470, 700.6175pt x 583.17876pt>
 File: figures/chapter03/3p5gev_proton_v1slopePt.png Graphic file (type png)
 <use figures/chapter03/3p5gev_proton_v1slopePt.png>
 Package pdftex.def Info: figures/chapter03/3p5gev_proton_v1slopePt.png  used on input line 273.
@@ -1414,18 +1383,18 @@ Package rerunfilecheck Info: File `analysisnote.out' has not changed.
 (rerunfilecheck)             Checksum: 8237FB36B463E2A401D0AA6157A014D6;6167.
  ) 
 Here is how much of TeX's memory you used:
- 14253 strings out of 476025
- 234303 string characters out of 5790017
+ 14283 strings out of 476025
+ 235259 string characters out of 5790017
  1877388 words of memory out of 5000000
- 34185 multiletter control sequences out of 15000+600000
+ 34210 multiletter control sequences out of 15000+600000
  558893 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,16n,79p,698b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on analysisnote.pdf (48 pages, 10790463 bytes).
+Output written on analysisnote.pdf (48 pages, 11174607 bytes).
 PDF statistics:
- 2612 PDF objects out of 2984 (max. 8388607)
- 1365 compressed objects within 14 object streams
- 184 named destinations out of 1000 (max. 500000)
- 649 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2622 PDF objects out of 2984 (max. 8388607)
+ 1367 compressed objects within 14 object streams
+ 185 named destinations out of 1000 (max. 500000)
+ 669 words of extra memory for PDF output out of 10000 (max. 10000000)
 
