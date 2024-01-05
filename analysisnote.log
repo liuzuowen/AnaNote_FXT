@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.13)  20 DEC 2023 10:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.13)  5 JAN 2024 16:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -799,160 +799,160 @@ Package pdftex.def Info: figures/chapter01/FXTmode.png  used on input line 20.
 <figures/chapter02/EPDgroup.png, id=207, 582.175pt x 449.68pt>
 File: figures/chapter02/EPDgroup.png Graphic file (type png)
 <use figures/chapter02/EPDgroup.png>
-Package pdftex.def Info: figures/chapter02/EPDgroup.png  used on input line 24.
+Package pdftex.def Info: figures/chapter02/EPDgroup.png  used on input line 25.
 (pdftex.def)             Requested size: 210.59857pt x 162.66689pt.
  [6] [7 <./figures/chapter02/EPDgroup.png>]
 <figures/chapter02/EP_3GeV.png, id=235, 406.51875pt x 292.09125pt>
 File: figures/chapter02/EP_3GeV.png Graphic file (type png)
 <use figures/chapter02/EP_3GeV.png>
-Package pdftex.def Info: figures/chapter02/EP_3GeV.png  used on input line 95.
+Package pdftex.def Info: figures/chapter02/EP_3GeV.png  used on input line 96.
 (pdftex.def)             Requested size: 210.59857pt x 151.31783pt.
 <figures/chapter02/EP_3p2GeV.png, id=236, 756.8275pt x 540.0175pt>
 File: figures/chapter02/EP_3p2GeV.png Graphic file (type png)
 <use figures/chapter02/EP_3p2GeV.png>
-Package pdftex.def Info: figures/chapter02/EP_3p2GeV.png  used on input line 96.
+Package pdftex.def Info: figures/chapter02/EP_3p2GeV.png  used on input line 97.
 (pdftex.def)             Requested size: 210.59857pt x 150.2645pt.
 <figures/chapter02/EP_3p5GeV.png, id=237, 390.45876pt x 274.02374pt>
 File: figures/chapter02/EP_3p5GeV.png Graphic file (type png)
 <use figures/chapter02/EP_3p5GeV.png>
-Package pdftex.def Info: figures/chapter02/EP_3p5GeV.png  used on input line 97.
+Package pdftex.def Info: figures/chapter02/EP_3p5GeV.png  used on input line 98.
 (pdftex.def)             Requested size: 210.59857pt x 147.79918pt.
 <figures/chapter02/EP_3p9GeV.png, id=238, 754.82pt x 537.00626pt>
 File: figures/chapter02/EP_3p9GeV.png Graphic file (type png)
 <use figures/chapter02/EP_3p9GeV.png>
-Package pdftex.def Info: figures/chapter02/EP_3p9GeV.png  used on input line 98.
+Package pdftex.def Info: figures/chapter02/EP_3p9GeV.png  used on input line 99.
 (pdftex.def)             Requested size: 210.59857pt x 149.82811pt.
  [8]
 <figures/chapter02/EPD_TPC_groups.png, id=255, 1234.6125pt x 299.1175pt>
 File: figures/chapter02/EPD_TPC_groups.png Graphic file (type png)
 <use figures/chapter02/EPD_TPC_groups.png>
-Package pdftex.def Info: figures/chapter02/EPD_TPC_groups.png  used on input line 132.
+Package pdftex.def Info: figures/chapter02/EPD_TPC_groups.png  used on input line 135.
 (pdftex.def)             Requested size: 304.19714pt x 73.69748pt.
  [9 <./figures/chapter02/EP_3GeV.png> <./figures/chapter02/EP_3p2GeV.png> <./figures/chapter02/EP_3p5GeV.png> <./figures/chapter02/EP_3p9GeV.png>]
 <figures/chapter02/res_3gev.png, id=269, 900.36375pt x 713.66624pt>
 File: figures/chapter02/res_3gev.png Graphic file (type png)
 <use figures/chapter02/res_3gev.png>
-Package pdftex.def Info: figures/chapter02/res_3gev.png  used on input line 150.
+Package pdftex.def Info: figures/chapter02/res_3gev.png  used on input line 153.
 (pdftex.def)             Requested size: 210.59857pt x 166.92752pt.
 <figures/chapter02/res_3p2gev.png, id=270, 435.6275pt x 418.56375pt>
 File: figures/chapter02/res_3p2gev.png Graphic file (type png)
 <use figures/chapter02/res_3p2gev.png>
-Package pdftex.def Info: figures/chapter02/res_3p2gev.png  used on input line 151.
+Package pdftex.def Info: figures/chapter02/res_3p2gev.png  used on input line 154.
 (pdftex.def)             Requested size: 187.19714pt x 179.86394pt.
 <figures/chapter02/res_3p5gev.png, id=271, 703.62875pt x 562.1pt>
 File: figures/chapter02/res_3p5gev.png Graphic file (type png)
 <use figures/chapter02/res_3p5gev.png>
-Package pdftex.def Info: figures/chapter02/res_3p5gev.png  used on input line 152.
+Package pdftex.def Info: figures/chapter02/res_3p5gev.png  used on input line 155.
 (pdftex.def)             Requested size: 210.59857pt x 168.23676pt.
 <figures/chapter02/res_3p9gev.png, id=272, 423.5825pt x 420.57124pt>
 File: figures/chapter02/res_3p9gev.png Graphic file (type png)
 <use figures/chapter02/res_3p9gev.png>
-Package pdftex.def Info: figures/chapter02/res_3p9gev.png  used on input line 153.
+Package pdftex.def Info: figures/chapter02/res_3p9gev.png  used on input line 156.
 (pdftex.def)             Requested size: 187.19714pt x 185.86693pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 160.
+(hyperref)                removing `math shift' on input line 163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pi' on input line 160.
+(hyperref)                removing `\pi' on input line 163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 160.
+(hyperref)                removing `math shift' on input line 163.
 
 [10 <./figures/chapter02/EPD_TPC_groups.png>] [11 <./figures/chapter02/res_3gev.png> <./figures/chapter02/res_3p2gev.png> <./figures/chapter02/res_3p5gev.png> <./figures/chapter02/res_3p9gev.png>]
 <figures/chapter02/3p5GeV_dEdx_P23id.pdf, id=304, 569.12625pt x 436.63126pt>
 File: figures/chapter02/3p5GeV_dEdx_P23id.pdf Graphic file (type pdf)
 <use figures/chapter02/3p5GeV_dEdx_P23id.pdf>
-Package pdftex.def Info: figures/chapter02/3p5GeV_dEdx_P23id.pdf  used on input line 189.
+Package pdftex.def Info: figures/chapter02/3p5GeV_dEdx_P23id.pdf  used on input line 192.
 (pdftex.def)             Requested size: 163.80286pt x 125.66708pt.
 <figures/chapter02/m2_3p5gev.png, id=305, 851.18pt x 623.32875pt>
 File: figures/chapter02/m2_3p5gev.png Graphic file (type png)
 <use figures/chapter02/m2_3p5gev.png>
-Package pdftex.def Info: figures/chapter02/m2_3p5gev.png  used on input line 190.
+Package pdftex.def Info: figures/chapter02/m2_3p5gev.png  used on input line 193.
 (pdftex.def)             Requested size: 163.80286pt x 119.95547pt.
 <figures/chapter02/nsigmaproton_3p5gev.png, id=306, 525.965pt x 701.62125pt>
 File: figures/chapter02/nsigmaproton_3p5gev.png Graphic file (type png)
 <use figures/chapter02/nsigmaproton_3p5gev.png>
-Package pdftex.def Info: figures/chapter02/nsigmaproton_3p5gev.png  used on input line 197.
+Package pdftex.def Info: figures/chapter02/nsigmaproton_3p5gev.png  used on input line 200.
 (pdftex.def)             Requested size: 257.40143pt x 343.37988pt.
 <figures/chapter02/m2_p_3p5gev.png, id=307, 842.14626pt x 676.5275pt>
 File: figures/chapter02/m2_p_3p5gev.png Graphic file (type png)
 <use figures/chapter02/m2_p_3p5gev.png>
-Package pdftex.def Info: figures/chapter02/m2_p_3p5gev.png  used on input line 204.
+Package pdftex.def Info: figures/chapter02/m2_p_3p5gev.png  used on input line 207.
 (pdftex.def)             Requested size: 257.40143pt x 206.7793pt.
 <figures/chapter02/3p5_piKp_acceptance.pdf, id=308, 569.12625pt x 363.3575pt>
 File: figures/chapter02/3p5_piKp_acceptance.pdf Graphic file (type pdf)
 <use figures/chapter02/3p5_piKp_acceptance.pdf>
-Package pdftex.def Info: figures/chapter02/3p5_piKp_acceptance.pdf  used on input line 211.
+Package pdftex.def Info: figures/chapter02/3p5_piKp_acceptance.pdf  used on input line 214.
 (pdftex.def)             Requested size: 257.40143pt x 164.341pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 217.
+(hyperref)                removing `math shift' on input line 220.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 217.
+(hyperref)                removing `superscript' on input line 220.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 217.
+(hyperref)                removing `subscript' on input line 220.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Lambda' on input line 217.
+(hyperref)                removing `\Lambda' on input line 220.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 217.
+(hyperref)                removing `math shift' on input line 220.
 
 
-Overfull \hbox (5.70454pt too wide) in paragraph at lines 226--230
+Overfull \hbox (5.70454pt too wide) in paragraph at lines 229--233
  []$[]$ 
  []
 
 <figures/chapter02/3p5gev_K0s_acceptance.pdf, id=313, 569.12625pt x 177.66376pt>
 File: figures/chapter02/3p5gev_K0s_acceptance.pdf Graphic file (type pdf)
 <use figures/chapter02/3p5gev_K0s_acceptance.pdf>
-Package pdftex.def Info: figures/chapter02/3p5gev_K0s_acceptance.pdf  used on input line 242.
+Package pdftex.def Info: figures/chapter02/3p5gev_K0s_acceptance.pdf  used on input line 245.
 (pdftex.def)             Requested size: 257.40143pt x 80.35458pt.
 <figures/chapter02/3p5gev_lambda_acceptance.pdf, id=314, 569.12625pt x 176.66pt>
 File: figures/chapter02/3p5gev_lambda_acceptance.pdf Graphic file (type pdf)
 <use figures/chapter02/3p5gev_lambda_acceptance.pdf>
-Package pdftex.def Info: figures/chapter02/3p5gev_lambda_acceptance.pdf  used on input line 243.
+Package pdftex.def Info: figures/chapter02/3p5gev_lambda_acceptance.pdf  used on input line 246.
 (pdftex.def)             Requested size: 257.40143pt x 79.9006pt.
 [12 <./figures/chapter02/3p5GeV_dEdx_P23id.pdf, page is rotated 90 degrees> <./figures/chapter02/m2_3p5gev.png>] [13 <./figures/chapter02/nsigmaproton_3p5gev.png> <./figures/chapter02/m2_p_3p5gev.png>] [14 <./figures/chapter02/3p5_piKp_acceptance.pdf, page is rotated 90 degrees> <./figures/chapter02/3p5gev_K0s_acceptance.pdf, page is rotated 90 degrees> <./figures/chapter02/3p5gev_lambda_acceptance.pdf, page is rotated 90 degrees>]
-LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 268.
+LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 271.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 )
-Overfull \hbox (10.79907pt too wide) in paragraph at lines 266--270
+Overfull \hbox (10.79907pt too wide) in paragraph at lines 269--273
 [][]\OT1/txtt/m/n/12 /star/u/xgn1992/Strangeness/Phi/3p85GeV_fixTarget/SL19e/Simulation/Embedding
  []
 
 <figures/chapter02/3p2gev_TPC_eff.pdf, id=515, 569.12625pt x 225.84375pt>
 File: figures/chapter02/3p2gev_TPC_eff.pdf Graphic file (type pdf)
 <use figures/chapter02/3p2gev_TPC_eff.pdf>
-Package pdftex.def Info: figures/chapter02/3p2gev_TPC_eff.pdf  used on input line 278.
+Package pdftex.def Info: figures/chapter02/3p2gev_TPC_eff.pdf  used on input line 281.
 (pdftex.def)             Requested size: 304.19714pt x 120.71664pt.
 <figures/chapter02/3p2gev_TOF_eff.pdf, id=519, 569.12625pt x 225.84375pt>
 File: figures/chapter02/3p2gev_TOF_eff.pdf Graphic file (type pdf)
 <use figures/chapter02/3p2gev_TOF_eff.pdf>
-Package pdftex.def Info: figures/chapter02/3p2gev_TOF_eff.pdf  used on input line 299.
+Package pdftex.def Info: figures/chapter02/3p2gev_TOF_eff.pdf  used on input line 302.
 (pdftex.def)             Requested size: 304.19714pt x 120.71664pt.
 [15 <./figures/chapter02/3p2gev_TPC_eff.pdf, page is rotated 90 degrees>]
 <figures/chapter02/3p2_K0s_eff.pdf, id=579, 569.12625pt x 451.6875pt>
 File: figures/chapter02/3p2_K0s_eff.pdf Graphic file (type pdf)
 <use figures/chapter02/3p2_K0s_eff.pdf>
-Package pdftex.def Info: figures/chapter02/3p2_K0s_eff.pdf  used on input line 316.
+Package pdftex.def Info: figures/chapter02/3p2_K0s_eff.pdf  used on input line 319.
 (pdftex.def)             Requested size: 210.59857pt x 167.14243pt.
 <figures/chapter02/3p2_lambda_eff.pdf, id=580, 569.12625pt x 451.6875pt>
 File: figures/chapter02/3p2_lambda_eff.pdf Graphic file (type pdf)
 <use figures/chapter02/3p2_lambda_eff.pdf>
-Package pdftex.def Info: figures/chapter02/3p2_lambda_eff.pdf  used on input line 317.
+Package pdftex.def Info: figures/chapter02/3p2_lambda_eff.pdf  used on input line 320.
 (pdftex.def)             Requested size: 210.59857pt x 167.14243pt.
 ) (./data/chapter03.tex [16 <./figures/chapter02/3p2gev_TOF_eff.pdf, page is rotated 90 degrees> <./figures/chapter02/3p2_K0s_eff.pdf, page is rotated 90 degrees> <./figures/chapter02/3p2_lambda_eff.pdf, page is rotated 90 degrees>]
 
@@ -1391,7 +1391,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  80i,16n,79p,698b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on analysisnote.pdf (48 pages, 11174607 bytes).
+Output written on analysisnote.pdf (48 pages, 11174619 bytes).
 PDF statistics:
  2622 PDF objects out of 2984 (max. 8388607)
  1367 compressed objects within 14 object streams

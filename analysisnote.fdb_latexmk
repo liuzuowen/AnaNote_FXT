@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex analysisnote"] 1703039956 "analysisnote.aux" "analysisnote.bbl" "analysisnote" 1703040031 0
-  "./analysisnoteNotes.bib" 1703040031 103 48ad29797468f16e2853d8797278d7af ""
+["bibtex analysisnote"] 1704442780 "analysisnote.aux" "analysisnote.bbl" "analysisnote" 1704443170 0
+  "./analysisnoteNotes.bib" 1704443169 103 48ad29797468f16e2853d8797278d7af ""
   "./ref/refs.bib" 1701412365 26640 448011729e031c1eadcbd415e5a8615f ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/revtex4-1/apsrev4-1.bst" 1602107945 71515 e333383ed72bf24aa6de7e8cabb55f84 ""
-  "analysisnote.aux" 1703040031 35322 b4a8680d29a6dc4c93c1cbc54681d2e2 "pdflatex"
+  "analysisnote.aux" 1704443169 35322 b4a8680d29a6dc4c93c1cbc54681d2e2 "pdflatex"
   (generated)
   "analysisnote.bbl"
   "analysisnote.blg"
   (rewritten before read)
-["pdflatex"] 1703040023 "/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.tex" "analysisnote.pdf" "analysisnote" 1703040031 0
+["pdflatex"] 1704443162 "/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.tex" "analysisnote.pdf" "analysisnote" 1704443170 0
   "/Users/liuzw/WorkSpace/LaTex/Paper/AnaNote_FXT/analysisnote.tex" 1702631856 1051 8e504d0afd90bb9c7edbb88b3ca6964e ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -128,15 +128,15 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1694563531 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1694563502 7883454 52744ded5c9ac4ced8f5c2ff1d9d3d03 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "analysisnote.aux" 1703040031 35322 b4a8680d29a6dc4c93c1cbc54681d2e2 "pdflatex"
-  "analysisnote.bbl" 1703039956 8734 ed0c237d90567e501c37215ac8b8a21a "bibtex analysisnote"
-  "analysisnote.out" 1703040031 6167 8237fb36b463e2a401d0aa6157a014d6 "pdflatex"
+  "analysisnote.aux" 1704443169 35322 b4a8680d29a6dc4c93c1cbc54681d2e2 "pdflatex"
+  "analysisnote.bbl" 1704442780 8734 ed0c237d90567e501c37215ac8b8a21a "bibtex analysisnote"
+  "analysisnote.out" 1704443169 6167 8237fb36b463e2a401d0aa6157a014d6 "pdflatex"
   "analysisnote.tex" 1702631856 1051 8e504d0afd90bb9c7edbb88b3ca6964e ""
-  "analysisnote.toc" 1703040031 2818 b6be90e28962561d974b84488187d4ab "pdflatex"
+  "analysisnote.toc" 1704443169 2818 b6be90e28962561d974b84488187d4ab "pdflatex"
   "data/abstract.tex" 1702977513 791 8efabd75867cb16a8c6d63c33ac15dfb ""
   "data/appendix.tex" 1702627313 12676 f04fd54ddfa147232a68a881b3526b13 ""
-  "data/chapter01.tex" 1703040023 4827 ab914128cf354394a51c118403c49664 ""
-  "data/chapter02.tex" 1703037777 19898 4252cf11bdf64052238e1d34644fcc1f ""
+  "data/chapter01.tex" 1704423187 4827 6cdd48a3453cd866ad9762627b4726d4 ""
+  "data/chapter02.tex" 1704443158 19943 eff654874bc4b7c3ff3e11fd805b7e70 ""
   "data/chapter03.tex" 1702631754 16245 218d32b1c406753795ac1a9cfc7933c6 ""
   "data/chapter04.tex" 1702709043 966 f662d10d8f64ee1d356cc0d28d01d305 ""
   "figures/chapter01/FXTmode.png" 1693014639 211667 f38b5ba21c6ca3a13875c5a34cb95c61 ""
