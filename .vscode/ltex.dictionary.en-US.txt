@@ -5,3 +5,4 @@ Glauber
 RHIC-STAR
 refMult
 nHitsFit
+centralities

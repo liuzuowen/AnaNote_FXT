@@ -1,4 +1,4 @@
-\contentsline {title}{ \relax \fontsize {24.88}{30pt}\selectfont {Analysis Note: \\ \textbf {Anti-flow of Kaon in Au+Au Collisions at $\sqrt {s_{NN}}$ = 3 - 3.9 GeV}} }{1}{section*.2}%
+\contentsline {title}{ \relax \fontsize {24.88}{30pt}\selectfont {Analysis Note: \\ \textbf {Anti-flow of Kaons in Au+Au Collisions at $\sqrt {s_{NN}}$ = 3 - 3.9 GeV}} }{1}{section*.2}%
 \contentsline {abstract}{Abstract}{1}{section*.1}%
 \tocdepth@munge 
 \contentsline {section}{\numberline {}Contents}{2}{section*.3}%
@@ -26,9 +26,9 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Rapidity dependence of $v_1$}{24}{section*.24}%
 \contentsline {subsubsection}{\numberline {3.2.2}Transverse momentum dependence of $v_1(y)$}{24}{section*.25}%
 \contentsline {subsubsection}{\numberline {3.2.3}Systematic uncertainty}{25}{section*.26}%
-\contentsline {section}{\numberline {4}Summary}{27}{section*.27}%
+\contentsline {section}{\numberline {4}Summary}{26}{section*.27}%
 \appendix 
-\contentsline {section}{\numberline {A}Appendix}{32}{section*.28}%
-\contentsline {section}{\numberline {B}PID cuts and acceptance plots}{32}{section*.29}%
-\contentsline {section}{\numberline {C}$v_1$ plots for other energies}{32}{section*.30}%
-\contentsline {section}{\numberline {}References}{48}{section*.31}%
+\contentsline {section}{\numberline {A}Appendix}{33}{section*.28}%
+\contentsline {section}{\numberline {B}PID cuts and acceptance plots}{33}{section*.29}%
+\contentsline {section}{\numberline {C}$v_1$ plots for other energies}{33}{section*.30}%
+\contentsline {section}{\numberline {}References}{49}{section*.31}%
